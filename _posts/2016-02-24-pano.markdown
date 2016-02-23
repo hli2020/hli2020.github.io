@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Panoramic Mosaic Stitching"
-excerpt: "TBD."
+excerpt: "how to make things happpen."
 date:   2016-02-24 13:00:00
 mathjax: true
 ---
