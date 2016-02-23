@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I am **Andrej Karpathy**, a PhD student at Stanford working on Deep Learning. My [academic website](http://cs.stanford.edu/people/karpathy/) has much more information.
+I am **Hongyang Li**, a PhD student at The Chinese University of Hong Kong working on Deep Learning. My [academic website](http://www.ee.cuhk.edu.hk/~yangli/) has much more information.

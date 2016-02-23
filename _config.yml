@@ -1,11 +1,11 @@
 # Site settings
-title: Andrej Karpathy blog
+title: "Hongyang Li, Academic Notes"
 email: 
-description: "Musings of a Computer Scientist."
+description: "A surfer in the vision ocean."
 baseurl: ""
-url: "http://karpathy.github.io"
-twitter_username: karpathy
-github_username:  karpathy
+url: "http://hli2020.github.io"
+twitter_username: francislee2020
+github_username:  hli2020
 
 # Build settings
 markdown: redcarpet
