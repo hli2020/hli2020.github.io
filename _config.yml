@@ -8,5 +8,5 @@ twitter_username: francislee2020
 github_username:  hli2020
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: pretty
