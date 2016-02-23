@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-title:  "The Unreasonable Effectiveness of Recurrent Neural Networks"
-excerpt: "We'll train and sample from character-level RNN language models that learn to write poetry, latex math and code. We'll also analyze the models and get hints of future research directions."
-date:   2015-05-21 12:00:00
+title:  "Panoramic Mosaic Stitching"
+excerpt: "TBD."
+date:   2016-02-20 12:00:00
 mathjax: true
 ---
 
