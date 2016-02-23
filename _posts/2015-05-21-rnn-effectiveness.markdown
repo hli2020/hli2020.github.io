@@ -691,27 +691,3 @@ RNN with and the computed of the RNN with with and the code
 
 Yes, the post was about RNN and how well it works, so clearly this works :). See you next time!
 
-**EDIT (extra links):** 
-
-Videos:
-
-- I gave a talk on this work at the [London Deep Learning meetup (video)](https://skillsmatter.com/skillscasts/6611-visualizing-and-understanding-recurrent-networks).
-
-Discussions:
-
-- [HN discussion](https://news.ycombinator.com/item?id=9584325)
-- Reddit discussion on [r/machinelearning](http://www.reddit.com/r/MachineLearning/comments/36s673/the_unreasonable_effectiveness_of_recurrent/)
-- Reddit discussion on [r/programming](http://www.reddit.com/r/programming/comments/36su8d/the_unreasonable_effectiveness_of_recurrent/)
-
-Replies:
-
-- [Yoav Goldberg](https://twitter.com/yoavgo) compared these RNN results to [n-gram maximum likelihood (counting) baseline](http://nbviewer.ipython.org/gist/yoavg/d76121dfde2618422139)
-- [@nylk](https://twitter.com/nylk) trained char-rnn on [cooking recipes](https://gist.github.com/nylki/1efbaa36635956d35bcc). They look great!
-- [@MrChrisJohnson](https://twitter.com/MrChrisJohnson) trained char-rnn on Eminem lyrics and then synthesized a rap song with robotic voice reading it out. Hilarious :)
-- [@samim](https://twitter.com/samim) trained char-rnn on [Obama Speeches](https://medium.com/@samim/obama-rnn-machine-generated-political-speeches-c8abd18a2ea0). They look fun!
-- [João Felipe](https://twitter.com/seaandsailor) trained char-rnn irish folk music and [sampled music](https://soundcloud.com/seaandsailor/sets/char-rnn-composes-irish-folk-music)
-- [Bob Sturm](https://twitter.com/boblsturm) also trained char-rnn on [music in ABC notation](https://highnoongmt.wordpress.com/2015/05/22/lisls-stis-recurrent-neural-networks-for-folk-music-generation/)
-- [RNN Bible bot](https://twitter.com/RNN_Bible) by [Maximilien](https://twitter.com/the__glu/with_replies)
-- [Learning Holiness](http://cpury.github.io/learning-holiness/) learning the Bible
-- [Terminal.com snapshot](https://www.terminal.com/tiny/ZMcqdkWGOM) that has char-rnn set up and ready to go in a browser-based virtual machine (thanks [@samim](https://www.twitter.com/samim))
-
