@@ -26,7 +26,7 @@ By the way, together with this post I am also releasing [code on Github](https:/
 Here are some more panoramas generated from the algorithm.
 
 | Images at a Glance        | Panorama           | Settings  |
-| ------------- |:-------------:| -----:|
+| ------------------------- |:------------------:| ---------:|
 | ![alt text][logo]     | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
