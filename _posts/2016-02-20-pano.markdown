@@ -39,3 +39,8 @@ Here are some more panoramas generated from the algorithm.
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
+Method         | VOC 2007 mAP | VOC 2010 mAP | VOC 2012 mAP
+-------------- |:------------:|:------------:|:------------:
+R-CNN          | 54.2%        | 50.2%        | 49.6%
+R-CNN bbox reg | 58.5%        | 53.7%        | 53.3%
