@@ -24,3 +24,11 @@ By the way, together with this post I am also releasing [code on Github](https:/
 
 ### Putting All Together
 Here are some more panoramas generated from the algorithm.
+
+| Images at a Glance        | Panorama           | Settings  |
+| ------------- |:-------------:| -----:|
+| ![alt text][logo]     | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+[logo]: (https://github.com/hli2020/hli2020.github.io/tree/master/assets/IMG_1178.JPG "Logo Title Text 1")
