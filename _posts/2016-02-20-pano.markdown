@@ -13,12 +13,12 @@ There's something magical about Recurrent Neural Networks (RNNs). I still rememb
 
 By the way, together with this post I am also releasing [code on Github](https://github.com/karpathy/char-rnn) that allows you to train character-level language models based on multi-layer LSTMs. You give it a large chunk of text and it will learn to generate text like it one character at a time. You can also use it to reproduce my experiments below. But we're getting ahead of ourselves; What are RNNs anyway?
 
-# Radial Distortion Correction
+### Radial Distortion Correction
 
-# Feature Extraction using SIFT
+### Feature Extraction using SIFT
 
 
-# Global Alignment
+### Global Alignment
 
 # Stitching and Blending
 
