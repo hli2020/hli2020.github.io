@@ -32,3 +32,10 @@ Here are some more panoramas generated from the algorithm.
 | zebra stripes | are neat      |    $1 |
 
 [logo]: (https://github.com/hli2020/hli2020.github.io/tree/master/assets/pano/IMG_1178.JPG "Logo Title Text 1")
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
