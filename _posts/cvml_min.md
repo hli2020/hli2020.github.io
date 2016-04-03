@@ -3,7 +3,7 @@ layout: post
 comments: false
 title:  "Minimum Knowledge of Computer Vision and Machine Learning"
 excerpt: "There do exists the minimum knowledge of computer vision and machine learning in order for us to have a basic, fluent, non-embarassing conversation with professionals. There's a broad span of topics in these two fields and we need a bunch of books to cover them all. This blog just walks through the very basic pipeline of the most famous algorithms."
-date:   2016-04-02 12:00:00
+date:   2016-04-01 12:00:00
 mathjax: true
 ---
 
