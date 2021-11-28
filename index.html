@@ -1,18 +1,240 @@
----
-layout: default
----
 
-<div class="home">
-  
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <br>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hongyang Li | Research Scientist</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="style.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
 
+<!-- Tracking code -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3698471-13']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<style>
+/*ul.a {
+    list-style-type: circle;
+}*/
+</style>
+</head>
+
+<body onload="start()">
+
+<div id="header" class="bg1">
+<!--   <div id="topnav">
+    <ul>
+      <li><a href="http://karpathy.github.io/">blog</a></li>
+    </ul>
+  </div> -->
+  <div id="headerblob">
+    <img src="me_.jpg" class="img-circle imgme" height="205cm">
+    <div id="headertext">
+      <div id="htname">Hongyang Li <haha2>(李弘扬)</haha2></div>
+      <div id="htdesc">SenseTime / Shanghai AI Lab</div>
+       <!-- <div id="htdesc">PI,  </div> -->
+      <div id="htem"><b>Email:</b> &nbsp; lihongyang@senseauto.com   
+      	&nbsp; <i><b>or</b></i> &nbsp; lihongyang@pjlab.org.cn
+      </div> 
+
+      <div id="icons">
+        <div class="svgico">
+          <a href="https://twitter.com/francislee2020"><img src="icons/twitter.svg"></a>
+        </div>
+
+        <div class="svgico">
+          <a href="https://github.com/hli2020">
+            <img src="icons/octocat.svg" width="52px">
+            <!-- <img src="https://img.icons8.com/ios/50/000000/google-scholar--v2.png"/> -->
+          </a>
+        </div>
+
+      <div class="svgico">
+          <a href="https://scholar.google.com/citations?user=Hfrih1EAAAAJ&hl=en">
+            <img src="icons/google-scholar.svg" width="52px">
+            <!-- <img src="https://img.icons8.com/ios/50/000000/google-scholar--v2.png"/> -->
+          </a>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
 </div>
+
+
+<div class="container" style="margin-top:-30px;margin-bottom:40px;">
+<haha>
+  <center>A glimpse of CUHK campus, where I spent four spectacular years (2015-2019) for my Ph.D. </center>
+	<!-- Took it myself. This webpage will <code>stop</code> updated and be <code>gone</code> soon. Hurray... ;)  -->
+</haha>
+</div>
+
+
+<div class="container">
+  <div id="timeline">
+  	<div class="timelineitem">
+      <div class="tdate">Jul 2021 - now</div>
+      <div class="ttitle">PI, Shanghai AI Lab</div>
+      <div class="tdesc">Cutting-edge research in Autonomous Driving. Our research group focuses on perception algorithms, sensor fusion and end-to-end perception/planning co-training.</div>
+    </div>
+
+    <div class="timelineitem">
+      <div class="tdate">Sep 2019 - now</div>
+      <div class="ttitle">Senior Research Manager, SenseTime</div>
+      <div class="tdesc">
+        I lead the <a href="https://github.com/ST-PerceptionX" target="_blank"> PerceptionX</a> team at SenseTime, where we verify and deploy algorithms for massive production in autonomous driving. 
+      </div>
+    </div>
+
+        <div class="timelineitem">
+      <div class="tdate">Sep 2015 - Jul 2019 </div>
+      <div class="ttitle">
+        PhD, The Chinese University of Hong Kong 
+      </div>
+      <div class="tdesc">Thesis on 2D Object Detection. Supervised by <a href="http://www.ee.cuhk.edu.hk/~xgwang/" target="_blank">Xiaogang Wang</a>
+      </div>
+    </div>
+
+<!--     <div class="timelineitem">
+      <div class="tdate">Jul - Dec, 2018</div>
+      <div class="ttitle"><a href="https://www.clarifai.com/">Clarifai</a> Research Intern, San Francisco</div>
+      <div class="tdesc">Few-shot learning. Mentor: <a href="https://cs.nyu.edu/~deigen/">David Eigen</a>
+      </div>
+    </div> -->
+
+
+  </div>
+</div>
+
+<div class="container" style="font-size:18px; font-weight:300;margin-top:50px;margin-bottom:50px;">
+
+  <!-- How to pronounce my name Hongyang? It's <span style="color:#090"> <b>Home</b></span> + <span style="color:#090"> <b>Young</b></span> :) <br> -->
+
+
+
+  <b>Highlight.</b><br>
+  <br/>
+<ul class="a">
+	
+  	<li class="b">
+    <span style="color:#090;background-color:#DAF7A6"><b>Pinned:</b></span> Our PerceptionX team is actively searching for talented <span style="color:#090;background-color:#DAF7A6"><b>interns/full-time employees/post-docs</b></span> all over the globe; proficient in C++/python is a <code>must</code>, decent knowledge on DL/CV/3D vision/autonomous driving are <code>pluses</code>.</li>
+
+    <li class="b">
+    <span style="color:#090;background-color:#DAF7A6"><b>To SJTU and Tsinghua undergrads only:</b></span> We got extra <code>quota</code> for your continuing studies as Ph.D. (SJTU)  or 
+    Master (Tsinghua) degree; if you are interested, join us <topic>early</topic>.</li>
+    
+    <li class="b">Introducing <a href="">PerceptionX Tech Blog</a>, where we share the latest tech/research thoughts from both ours and the community. 
+    A good (probably best) way of sharing ideas than bustling around like most people do in conferences.</li>
+
+
+<li class="b">Oct. 2019: Program chair, ICCV'19 workshop on Statistical Deep Learning for Computer Vision.
+  </li>
+
+
+    <li class="b">Jun. 2018: We are organizing a workshop on <a href="https://mltrain.cc/events/enabling-reproducibility-in-machine-learning-mltrainrml-icml-2018/">machine learning reproducibility (RML)</a> in conjunction with ICML 2018. 
+    </li>
+
+
+
+
+    <li class="b">May 2017: I am co-organizing the <a href="http://dl.ee.cuhk.edu.hk/#symposium">First CUHK Deep Learning Symposium</a>.</li>
+  
+  <li class="b">May 2016: I received the HKSAR 
+    <a href="http://www.edb.gov.hk/en/edu-system/postsecondary/local-higher-edu/publicly-funded-programmmes/scholarship.html">Talent Development Scholarship</a> 15/16 in the field of Innovation, Science and Technology.
+    </li>
+
+  <li class="b">Jan. 2016: The ImageNet Attribute dataset for our ICCV work is released. <a href="http://www.ee.cuhk.edu.hk/~xgwang/ImageNetAttribute.html" target="_blank">Project Page</a>.</li>
+  
+</ul>
+<br><br>
+  <b>Recent Talks.</b><br> 
+
+<ul class="a">
+
+<li class="b">July 2021: Talk in Chinese, 量产自动驾驶的车道线与物体检测 at <code>商汤学术</code>, <topic>Online B站</topic>. [<a href="https://drive.google.com/file/d/1-bnEVEnlpv5h9JJ__u6W3-m9vGTCn9gH/view?usp=sharing">slides</a>] 
+        [<a href="https://www.bilibili.com/video/BV1Bf4y1b7PF?spm_id_from=333.999.0.0">video</a>]
+    </li>
+
+      <li class="b">March 2019: Talk on A Recent Overview of Object Detection at <code>GTC 2019</code>, <topic>San Jose, USA</topic>. [<a href="https://docs.google.com/presentation/d/12Syg5OXD6nGwtG_nwmoQ4kqX5GtJ-5pJ1OuVY53FqB0/edit?usp=sharing">slides</a>] 
+        [<a href="https://on-demand.gputechconf.com/gtc/2019/video/_/S9551/">video</a>]
+    </li>
+
+
+
+
+<!--       <li class="b">July 2017: Talk slides on <a href="https://docs.google.com/presentation/d/1mycfB4YvxlKA4SHwXcWlSSJsORJ_CX1POgB2oibaPrQ/edit?usp=sharing">Deep Learning in Computer Vision</a> at University of Victoria, for general engineering audience.</li> -->
+</ul>
+  <br><br>
+</div>
+
+<!-- <hr class="soft"> -->
+
+
+
+<div id="sitefooter" style="text-align:center;">
+<!--           <div class="footerimg" style='margin-left:-600px;'>
+            <img src="cu_logo_transparent.png">
+          </div>  -->        
+          <div class="footertext" style="margin-top:100px;">
+              Copyright to Hongyang Li 2019 - 2022.
+        </div>
+</div>
+
+
+<!-- place js at end for faster loading -->
+<script src="jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+
+var more_projects_shown = false;
+function start() {
+  $("#showmoreprojects").click(function() {
+    if(!more_projects_shown) {
+      $("#moreprojects").slideDown('fast', function() {
+        $("#showmoreprojects").text('hide');
+      });
+      more_projects_shown = true;
+    } else {
+      $("#moreprojects").slideUp('fast', function() {
+        $("#showmoreprojects").text('show more');
+      });
+      more_projects_shown = false;
+    }
+  });
+
+  var more_pubs_shown = false;
+  $("#showmorepubs").click(function() {
+    if(!more_pubs_shown) {
+      $("#morepubs").slideDown('fast', function() {
+        $("#showmorepubs").text('hide');
+      });
+      more_pubs_shown = true;
+    } else {
+      $("#morepubs").slideUp('fast', function() {
+        $("#showmorepubs").text('show more');
+      });
+      more_pubs_shown = false;
+    }
+  });
+
+}
+
+</script>
+
+
+</body>
+</html>
