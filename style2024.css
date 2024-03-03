@@ -1,0 +1,105 @@
+/* font */
+body {
+    margin: 0;
+    -webkit-text-size-adjust: none;
+    font-family: "San Francisco", "system-ui";
+    text-transform: none;
+    color: #212121;
+}
+.mobilevisible {
+    display: none;
+    @media screen and (max-width: 1024px) {
+        display: block;
+    }
+}
+
+.white {
+    color: white;
+}
+.Owhite {
+    color: rgb(233, 233, 233);
+}
+.Oblue {
+    color: #00a0e8;
+}
+.Odarkblue {
+    color: #0c318f;
+}
+.Olightblue {
+    color: #53c2f0;
+}
+.gray {
+    color: gray;
+}
+
+
+
+code {
+    color: #00a0e8;
+    background-color: rgba(0, 160, 232, .23);
+    padding: 0 3px;
+    user-select: all;
+    margin: 0 3px;
+    font-size: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+a, i, b {
+    font-size: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+span, p, td, th, li, select, button, input, textarea {
+    font-size: 16px;
+    font-weight: normal;
+    @media screen and (max-width: 1024px) {
+        font-size: 26px;
+    }
+}
+h6 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    @media screen and (max-width: 1024px) {
+        font-size: 30px;
+    }
+}
+h5, h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    @media screen and (max-width: 1024px) {
+        font-size: 30px;
+    }
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    @media screen and (max-width: 1024px) {
+        font-size: 34px;
+    }
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    @media screen and (max-width: 1024px) {
+        font-size: 40px;
+    }
+}
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0;
+    @media screen and (max-width: 1024px) {
+        font-size: 72px;
+    }
+}
+
+
+/* format */
+.block {
+    max-width: 1280px;
+    padding: 0 48px;
+}
