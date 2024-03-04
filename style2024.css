@@ -1,10 +1,13 @@
 /* font */
 body {
-    margin: 0;
+    margin: 0 64px;
     -webkit-text-size-adjust: none;
     font-family: "San Francisco", "system-ui";
     text-transform: none;
     color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .mobilevisible {
     display: none;
@@ -31,7 +34,9 @@ body {
 .gray {
     color: gray;
 }
-
+.orange {
+    color: #e37222;
+}
 
 
 code {
@@ -109,7 +114,7 @@ ul {
 }
 .block {
     max-width: 1280px;
-    padding: 0 128px;
+    width: 100%;
 }
 
 
@@ -119,23 +124,40 @@ ul {
     margin-bottom: 32px;
     display: flex;
     flex-direction: row;
-    flex-basis: 1;
+    justify-content: space-around;
+    gap: 33px;
     & .left {
-        flex-grow: 10;
+        max-width: 768px;
         display: flex;
         flex-direction: column;
-        text-align: center;
-        & p img {
-            width: 100%;
-            margin-bottom: 11px;
+        & h1, h6 {
+            text-align: center;
+        }
+        & p {
+            text-align: justify;
         }
     }
     & .right {
+        min-width: 256px;
+        max-width: 256px;
         display: flex;
-        flex-grow: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         & img {
             width: 100%;
             height: fit-content;
+        }
+    }
+    @media screen and (max-width: 1024px) {
+        flex-direction: column-reverse;
+        align-items: center;
+        & .left {
+            max-width: 100%;
+        }
+        & .right {
+            min-width: 40vw;
+            max-width: 40vw;
         }
     }
 }
@@ -145,6 +167,10 @@ ul {
 .content {
     margin-top: 32px;
     margin-bottom: 32px;
+    & iframe {
+        width: 100%;
+        height: 512px;
+    }
 }
 
 .footer {
