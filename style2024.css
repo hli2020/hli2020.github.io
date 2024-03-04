@@ -35,19 +35,21 @@ body {
 
 
 code {
-    color: #00a0e8;
-    background-color: rgba(0, 160, 232, .23);
+    color: darkred;
+    background-color: rgb(139, 0, 0, .1);
     padding: 0 3px;
     user-select: all;
     margin: 0 3px;
     font-size: inherit;
     text-decoration: none;
-    font-weight: bold;
 }
 a, i, b {
     font-size: inherit;
     text-decoration: none;
     color: inherit;
+}
+a:hover {
+    opacity: .67;
 }
 span, p, td, th, li, select, button, input, textarea {
     font-size: 16px;
@@ -81,7 +83,7 @@ h3 {
     }
 }
 h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     margin: 0;
     @media screen and (max-width: 1024px) {
@@ -89,7 +91,7 @@ h2 {
     }
 }
 h1 {
-    font-size: 64px;
+    font-size: 48px;
     font-weight: bold;
     margin: 0;
     @media screen and (max-width: 1024px) {
@@ -99,7 +101,54 @@ h1 {
 
 
 /* format */
+ul {
+    padding-inline-start: 23px;
+    & li {
+        margin-bottom: 11px;
+    }
+}
 .block {
     max-width: 1280px;
-    padding: 0 48px;
+    padding: 0 128px;
+}
+
+
+
+.introduction {
+    margin-top: 64px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 1;
+    & .left {
+        flex-grow: 10;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        & p img {
+            width: 100%;
+            margin-bottom: 11px;
+        }
+    }
+    & .right {
+        display: flex;
+        flex-grow: 10;
+        & img {
+            width: 100%;
+            height: fit-content;
+        }
+    }
+}
+
+
+
+.content {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.footer {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
 }
