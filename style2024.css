@@ -175,3 +175,9 @@ ul {
     margin-bottom: 32px;
     text-align: center;
 }
+
+
+
+.lists a {
+    text-decoration: underline;
+}
