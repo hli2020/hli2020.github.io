@@ -53,7 +53,8 @@ a, i, b {
     text-decoration: none;
     color: inherit;
 }
-a:hover {
+a:hover, div a:hover {
+    color: #e37222;
     opacity: .67;
 }
 span, p, td, th, li, select, button, input, textarea {
@@ -176,8 +177,3 @@ ul {
     text-align: center;
 }
 
-
-
-.lists a {
-    color: #00a0e8;
-}
