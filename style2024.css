@@ -166,8 +166,12 @@ ul {
     margin-top: 32px;
     margin-bottom: 32px;
     & iframe {
-        width: 100%;
+        margin-left: max(23px, 2.3%);
+        width: 80%;
         height: 512px;
+        @media screen and (max-width: 1024px) {
+            width: 96%;
+        }
     }
 }
 
