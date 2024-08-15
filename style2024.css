@@ -181,3 +181,8 @@ ul {
     text-align: center;
 }
 
+
+
+br {
+    user-select: none;
+}
