@@ -186,3 +186,13 @@ ul {
 br {
     user-select: none;
 }
+
+
+.back {
+    color: #00a0e8;
+    border: 2px solid #00a0e8;
+    padding: 3px;
+    &:hover {
+        border: 2px solid #e37222;
+    }
+}
