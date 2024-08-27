@@ -14,7 +14,7 @@ body {
     @media screen and (max-width: 1024px) {
         display: block;
     }
-} 
+}
 
 .white {
     color: white;
@@ -167,8 +167,8 @@ ul {
     margin-bottom: 32px;
     & iframe {
         margin-left: max(23px, 2.3%);
-        width: 80%;
-        height: 512px;
+        width: 60%;
+        height: 384px;
         @media screen and (max-width: 1024px) {
             width: 96%;
         }
