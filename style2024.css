@@ -15,6 +15,12 @@ body {
         display: block;
     }
 }
+p, ul li {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+
+
 
 .white {
     color: white;
@@ -167,8 +173,8 @@ ul {
     margin-bottom: 32px;
     & iframe {
         margin-left: max(23px, 2.3%);
-        width: 80%;
-        height: 512px;
+        width: 60%;
+        height: 384px;
         @media screen and (max-width: 1024px) {
             width: 96%;
         }
@@ -185,4 +191,14 @@ ul {
 
 br {
     user-select: none;
+}
+
+
+.back {
+    color: #00a0e8;
+    border: 2px solid #00a0e8;
+    padding: 3px;
+    &:hover {
+        border: 2px solid #e37222;
+    }
 }
