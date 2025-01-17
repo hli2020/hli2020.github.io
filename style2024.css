@@ -202,3 +202,23 @@ br {
         border: 2px solid #e37222;
     }
 }
+
+.showingbg {
+    background-color: rgb(211, 211, 211, .3);
+}
+
+.showing {
+    display: block;
+}
+
+.hiding {
+    display: none;
+}
+
+#introcnbutton {
+    user-select: none;
+}
+#introcnbutton:hover {
+    cursor: pointer;
+    opacity: 1;
+}
