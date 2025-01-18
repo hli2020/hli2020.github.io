@@ -4,8 +4,7 @@
 
     <link rel="icon" type="image/png" href="/content/hku-64.png">
 
-
-    <link href="/style2024.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/css/index_tailwind.css" rel="stylesheet">
 </head>
 
 
@@ -22,172 +21,193 @@
 
 
 
-<script>
-    var showintrocn = false;
-    function changeintrocn() {
-        if (showintrocn != true) {
-            document.getElementById("introcnbutton").classList.add('showingbg');
-            document.getElementById("introcncontent").classList.add('showingbg');
-            document.getElementById("introcncontent").classList.add('showing');
-            document.getElementById("introcncontent").classList.remove('hiding');
-            showintrocn = true;
-        } else {
-            document.getElementById("introcnbutton").classList.remove('showingbg');
-            document.getElementById("introcncontent").classList.remove('showingbg');
-            document.getElementById("introcncontent").classList.remove('showing');
-            document.getElementById("introcncontent").classList.add('hiding');
-            showintrocn = false;
-        }
-    }
-</script>
+<body class="h-fit flex justify-center">
+    <div class="h-fit w-full laptop:w-288 p-6 laptop:p-10 pt-24 pb-24 laptop:pt-24 laptop:pb-24">
+        
 
 
+        <div class="flex flex-col-reverse laptop:flex-row justify-between gap-10">
 
-<body>
+            <div class="flex flex-col gap-6">
 
-
-
-    <div class="block">
-        <div class="introduction">
-
-            <div class="left">
-                
-                <h1>Hongyang Li</h1>
-
-                <br>
+                <h1 class="text-center">
+                    Hongyang Li
+                </h1>
 
                 <p>
                     Assistant Professor, Institute of Data Science, The University of Hong Kong 
                 </p>
 
-                <ul>
-                    <li>Academic page: <a class="Oblue" target="_blank" href="https://datascience.hku.hk/people/hongyang-li/">https://datascience.hku.hk/people/hongyang-li/</a></li>
-                    <li>Email: <a class="Oblue" href="mailto:hongyang@hku.hk">hongyang@hku.hk</a> or <a class="Oblue" href="mailto:hy@opendrivelab.com">hy@opendrivelab.com</a></li>
-                    <li>Office: Room P307B, Graduate House, 3 University Drive, HKU</li>
+                <ul class="ml-6 space-y-2 list-outside list-disc">
+                    <li>
+                        Academic page: <a class="text-o-blue hover:text-o-hover" target="_blank" href="https://datascience.hku.hk/people/hongyang-li/">https://datascience.hku.hk/people/hongyang-li/</a>
+                    </li>
+                    <li>
+                        Email: <a class="text-o-blue hover:text-o-hover" href="mailto:hongyang@hku.hk">hongyang@hku.hk</a> or <a class="text-o-blue hover:text-o-hover" href="mailto:hy@opendrivelab.com">hy@opendrivelab.com</a>
+                    </li>
+                    <li>
+                        Office: Room P307B, Graduate House, 3 University Drive, HKU
+                    </li>
                 </ul>
 
-                <div style="font-weight: bold; color: #0c318f; background-color: rgb(83, 194, 240, .3); padding: 13px; border-radius: 7px; text-align: center; margin-top: 13px; margin-bottom: 7px;">
-                    We are taking in Winter 2025 Internship. Newbies / undergraduates are welcome!
+                <div class="flex flex-col gap-3">
+                    <b class="text-o-dark-blue bg-o-blue bg-opacity-20 p-3" style="text-align: center; ">
+                        We are taking in Winter 2025 Internship. Newbies / undergraduates are welcome!
+                    </b>
+
+                    <p>
+                        Please refer to <a class="text-o-blue hover:text-o-hover" href="/recruit/">this page</a> for more details.
+                    </p>
                 </div>
-                <p>Please refer to <a class="Oblue" href="/recruitment/">this page</a> for more details.</p>
-                
-            
+
             </div>
-            
-            <div class="right">
-                <img src="/content/me.jpeg"/>
+
+            <div class="flex laptop:flex-col justify-center">
+                <img src="/content/me.jpeg" class="size-72"/>
             </div>
 
         </div>
-    </div>
 
 
 
-    <div class="block">
-        <div class="content">
-            <h2 class="ODarkBlue">Biography</h2>
-            <br>
+        <div class="mt-20 flex flex-col gap-6">
+
+            <h2 class="text-o-dark-blue">
+                Biography
+            </h2>
+
             <p>
-                Hongyang Li is an Assistant Professor at HKU Musketeers Foundation Institute of Data Science, The University of Hong Kong and the Director of OpenDriveLab (<a href="https://opendrivelab.com/" target="_blank" class="Oblue" >opendrivelab.com</a>) since 2021. 
+                Hongyang Li is an Assistant Professor at HKU Musketeers Foundation Institute of Data Science, The University of Hong Kong and the Director of OpenDriveLab (<a href="https://opendrivelab.com/" target="_blank" class="text-o-blue hover:text-o-hover" >opendrivelab.com</a>) since 2021. 
                 His research focus is on Autonomous Driving and Embodied AI. He led the end-to-end autonomous driving project in 2022, UniAD and won the IEEE CVPR 2023 Best Paper Award. UniAD has a large impact both in academia and industry, including the recent rollout to customers by Tesla in FSD V12, V13 in 2024. 
-                He proposed the bird’s-eye-view perception work, BEVFormer, that won Top 100 AI Papers in 2022 and was explicitly recognized by Jensen Huang, CEO of NVIDIA and Prof. Shashua, CEO of Mobileye at public Keynote. He is the Area Chair for CVPR, NeurIPS, ICLR, ICCV, ICML, including the Notable Area Chair for NeurIPS 2023.
+                He proposed the bird's-eye-view perception work, BEVFormer, that won Top 100 AI Papers in 2022 and was explicitly recognized by Jensen Huang, CEO of NVIDIA and Prof. Shashua, CEO of Mobileye at public Keynote. He is the Area Chair for CVPR, NeurIPS, ICLR, ICCV, ICML, including the Notable Area Chair for NeurIPS 2023.
                 He serves as Referee for Nature Communications, Guest Editor at SAE China Automotive Innovations. 
                 He will act as Workshop Chair for CVPR 2026. He is the Working Group Chair for IEEE Standards under Vehicular Technology Society and Senior Member of IEEE. 
             </p>
-            <br>
-            <span><a class="Oblue" onclick="changeintrocn()" id="introcnbutton" style="margin-bottom: 7px;">中文简介</a></span>
-            <p id="introcncontent" class="hiding" style="padding-top: 7px; padding-bottom: 7px;">
-                李弘扬，香港大学数据科学研究院助理教授，香港大学OpenDriveLab研究团队（<a href="https://opendrivelab.com/" target="_blank" class="Oblue" >opendrivelab.com</a>）负责人。研究方向为端到端具身智能系统。他主导的端到端自动驾驶项目UniAD，获得IEEE CVPR 2023最佳论文奖。UniAD在工业界和学术界都产生了明显的社会经济效益，包括特斯拉推出的FSD V12。他提出的俯视图感知工作BEVFormer，获得了2022年百强影响力人工智能论文榜单，并得到英伟达CEO黄仁勋先生、Mobileye CEO Shashua教授在公开演讲的单独提及。多次担任CVPR、NeurIPS、ICLR、ICCV、ICML等国际会议领域主席，其中获得NeurIPS 2023 Notable Area Chair称号。他是CVPR 2026 Workshop Chair、《自然·通讯》的审稿人、期刊《Automotive Innovations》客座编委。IEEE高级会员、IEEE汽车委员会自动驾驶国际标准工作组组长。荣获2024年吴文俊人工智能青年科技奖、曾获上海市东方英才计划领军项目。
-            </p>
+
+            <details class="group inline-block">
+                <summary class="inline-block text-o-blue hover:text-o-hover group-open:bg-o-white">
+                    中文简介
+                </summary>
+                <p class="bg-o-white pt-2 pb-2">
+                    李弘扬，香港大学数据科学研究院助理教授，香港大学OpenDriveLab研究团队（<a href="https://opendrivelab.com/" target="_blank" class="text-o-blue hover:text-o-hover">opendrivelab.com</a>）负责人。研究方向为端到端具身智能系统。他主导的端到端自动驾驶项目UniAD，获得IEEE CVPR 2023最佳论文奖。UniAD在工业界和学术界都产生了明显的社会经济效益，包括特斯拉推出的FSD V12。他提出的俯视图感知工作BEVFormer，获得了2022年百强影响力人工智能论文榜单，并得到英伟达CEO黄仁勋先生、Mobileye CEO Shashua教授在公开演讲的单独提及。多次担任CVPR、NeurIPS、ICLR、ICCV、ICML等国际会议领域主席，其中获得NeurIPS 2023 Notable Area Chair称号。他是CVPR 2026 Workshop Chair、《自然·通讯》的审稿人、期刊《Automotive Innovations》客座编委。IEEE高级会员、IEEE汽车委员会自动驾驶国际标准工作组组长。荣获2024年吴文俊人工智能青年科技奖、曾获上海市东方英才计划领军项目。
+                </p>
+            </details>
+        
         </div>
-    </div>
 
 
 
-    <div class="block">
-        <div class="content lists">
-            <h2 class="ODarkBlue">Perspective Students / FTEs</h2>
-            <ul>
-                <li>Post-doc / Ph.D. / MPhil: please send me an email. We usually hire  <a class="Oblue" href="https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme" target="_blank">HKPFS</a> or <a class="Oblue" href="https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hku_presidential_phd_scholar_programme" target="_blank">HKU Presidential Scholarship</a> level candidate</li>
+        <div class="mt-20 flex flex-col gap-6">
+
+            <h2 class="text-o-dark-blue">
+                Perspective Students / FTEs
+            </h2>
+
+            <ul class="ml-6 space-y-2 list-outside list-disc">
                 <li>
-                 Research Assistant / Internship: please send request to <a class="Oblue" href="mailto:recruit@opendrivelab.com">recruit@opendrivelab.com</a>
+                    Post-doc / Ph.D. / MPhil: please send me an email. We usually hire  <a class="text-o-blue hover:text-o-hover" href="https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme" target="_blank">HKPFS</a> or <a class="text-o-blue hover:text-o-hover" href="https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hku_presidential_phd_scholar_programme" target="_blank">HKU Presidential Scholarship</a> level candidate
                 </li>
-                <li> For full-time employee (FTE) at HKU / Shangahi AI Lab / Shanghai Innovation Institute, we would be happy to recruit Research Scientist / Engineer / Staff in Embodied AI and Autonomous Driving!
+                <li>
+                    Research Assistant / Internship: please send request to <a class="text-o-blue hover:text-o-hover" href="mailto:recruit@opendrivelab.com">recruit@opendrivelab.com</a>
+                </li>
+                <li>
+                    For full-time employee (FTE) at HKU / Shangahi AI Lab / Shanghai Innovation Institute, we would be happy to recruit Research Scientist / Engineer / Staff in Embodied AI and Autonomous Driving!
                 </li>
             </ul>
+
         </div>
-    </div>
 
 
-    <div class="block">
-        <div class="content lists">
-            <h2 class="ODarkBlue">Research</h2>
-            <ul>
-                <li>Focus:  AI for Robotics, Autonomous Driving, 3D Vision, Foundation Models</li>
+
+        <div class="mt-20 flex flex-col gap-6">
+
+            <h2 class="text-o-dark-blue">
+                Research
+            </h2>
+
+            <ul class="ml-6 space-y-2 list-outside list-disc">
                 <li>
-                    <a class="Oblue" href="https://scholar.google.com/citations?user=Hfrih1EAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>
+                    Focus:  AI for Robotics, Autonomous Driving, 3D Vision, Foundation Models
                 </li>
                 <li>
-                    <a class="Oblue" href="https://hub.hku.hk/cris/rp/rp03401" target="_blank">HKU Scholars Hub</a>
+                    <a class="text-o-blue hover:text-o-hover" href="https://scholar.google.com/citations?user=Hfrih1EAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>
                 </li>
-                
-                <li><a class="Oblue" href="https://opendrivelab.com/publications/" target="_blank">Publications</a> from OpenDriveLab</li>
+                <li>
+                    <a class="text-o-blue hover:text-o-hover" href="https://hub.hku.hk/cris/rp/rp03401" target="_blank">HKU Scholars Hub</a>
+                </li>
+                <li>
+                    <a class="text-o-blue hover:text-o-hover" href="https://opendrivelab.com/publications/" target="_blank">Publications</a> from OpenDriveLab
+                </li>
             </ul>
+
         </div>
-    </div>
 
 
 
-    <div class="block">
-        <div class="content lists">
-            <h2 class="ODarkBlue">Teaching</h2>
-            <ul>
+        <div class="mt-20 flex flex-col gap-6">
+
+            <h2 class="text-o-dark-blue">
+                Teaching
+            </h2>
+
+            <ul class="ml-6 space-y-2 list-outside list-disc">
                 <li>
                     IDSS 2501: Embodied AI 101,
                     Jul 22 - Aug 1, 2025,
-                    <a class="Oblue" href="https://datascience.hku.hk/2024/12/hku-summer-institute-2025-idss-2501-welcomes-applications-from-undergraduates/" target="_blank">course</a>
+                    <a class="text-o-blue hover:text-o-hover" href="https://datascience.hku.hk/2024/12/hku-summer-institute-2025-idss-2501-welcomes-applications-from-undergraduates/" target="_blank">course</a>
                 </li>
                 <!-- <li>
                     CS7355: Advances in Autonomous Driving, 
                     Shanghai Jiao Tong University,
                     Spring 2024,
-                    <a class="Oblue" href="https://roboticsjtu.github.io/CS7355/index.html" target="_blank">Syllabus</a>
+                    <a class="text-o-blue hover:text-o-hover" href="https://roboticsjtu.github.io/CS7355/index.html" target="_blank">Syllabus</a>
                 </li> -->
             </ul>
+
         </div>
-    </div>
 
 
 
-    <div class="block">
-        <div class="content lists">
-            <h2 class="ODarkBlue">Talk</h2>
-            <ul>
+        <div class="mt-20 flex flex-col gap-6">
+
+            <h2 class="text-o-dark-blue">
+                Talk
+            </h2>
+
+            <ul class="ml-6 space-y-4 list-outside list-disc">
                 <li>
                     Talk on "What are Good (Pre-training) Representations for Robotic Manipulation?", 
                     TU Delft, Netherlands,
                     July 2024,
                     in conjunction with RSS 2024,
-                    <a class="Oblue" href="/content/TUDelft_Talk_MPI.pdf" target="_blank">Slides</a>
+                    <a class="text-o-blue hover:text-o-hover" href="/content/TUDelft_Talk_MPI.pdf" target="_blank">slides</a>
                 </li>
-            </ul>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/reNxFagbDoU?si=6DYDlydCF2X_NsaC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <br><br>
-            <ul>
+                    <div class=" inline-block bg-o-white group-hover:bg-o-white-hover">
+                        <div class="absolute p-16">
+                            <h2 class="text-white">
+                                record
+                            </h2>
+                        </div>
+                        <iframe class="relative" width="500" height="280" src="https://www.youtube.com/embed/reNxFagbDoU?si=6DYDlydCF2X_NsaC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 <li>
-                    Tutorial on <a class="Oblue" href="https://wayve.ai/cvpr-e2ead-tutorial/" target="_blank">End-to-End Autonomy: A New Era of Self-Driving</a>, 
+                    Tutorial on <a class="text-o-blue hover:text-o-hover" href="https://wayve.ai/cvpr-e2ead-tutorial/" target="_blank">End-to-End Autonomy: A New Era of Self-Driving</a>, 
                     CVPR 2024 in Seattle, USA,
-                    <a class="Oblue" href="/content/Wayve_Tutorial_CVPR2024_Hongyang.pdf" target="_blank">Slides</a>
+                    <a class="text-o-blue hover:text-o-hover" href="/content/Wayve_Tutorial_CVPR2024_Hongyang.pdf" target="_blank">slides</a>
                 </li>
+                <div class=" inline-block bg-o-white group-hover:bg-o-white-hover">
+                    <div class="absolute p-16">
+                        <h2 class="text-white">
+                            record
+                        </h2>
+                    </div>
+                    <iframe class="relative" width="500" height="280" src="https://www.youtube.com/embed/8XOpjf6jAxg?si=cICeweE2s3TpQIzC&amp;start=2677" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
             </ul>
-            <!-- <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1356060468&bvid=BV1Sz421z7Ey&cid=1616948386&p=1&autoplay=0&muted=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe> -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8XOpjf6jAxg?si=cICeweE2s3TpQIzC&amp;start=2677" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
         </div>
+
+
+        
     </div>
-
-
-
-    <br><br><br><br><br><br>
-
-
 </body>
