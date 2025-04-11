@@ -1,6 +1,5 @@
 # Editing in vscode
-- Live Server
-- open in browser
+- Live Preview
 
 # Tailwind (adding new feature required)
 - npm link tailwindcss
