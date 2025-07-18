@@ -1,5 +1,5 @@
 <head>
-    <title>Recruit | Hongyang Li</title>
+    <title>SII Projects</title>
     <meta name="keywords" content="Hongyang Li, Autonomous Driving, Embodied AI">
 
     <link rel="icon" type="image/png" href="/content/hku-64.png">
@@ -31,7 +31,7 @@
         <div class="flex flex-col gap-6">
 
             <p>
-                2025年在我们为大家准备了丰富多样的课题方向，欢迎登录系统（<a class="text-o-blue hover:text-o-hover" href="https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme" target="_blank">xxx</a>）了解详情，开启你的精彩研究之路！
+                2025年在我们为大家准备了丰富多样的课题方向，欢迎各位前来了解，开启你的精彩研究之路！
             </p>
         
         </div>
@@ -146,11 +146,16 @@
         <div class="mt-20 flex flex-col gap-6">
 
             <h2 class="text-o-blue">
-                [Embodied01] 自动复位构建自动化评测流程（低成本达到效果，可复现，正向难，反向简单）
+                [Embodied01] 自动复位构建自动化评测流程
             </h2>
 
             <ul class="ml-6 space-y-2 list-outside list-disc">
-                <li>课题介绍：xxx</li>
+                <li>课题介绍：</li>
+                <ul class="ml-6 space-y-2 list-outside list-disc">
+                    <li>目的：低成本达到真机评测效果，评测结果可复现，设计评测任务应该是正向推理难，反向恢复简单的。</li>
+                    <li>做法：参考AutoEval（<a class="text-o-blue hover:text-o-hover" href="https://arxiv.org/pdf/2503.24278" target="_blank">2503.24278</a>），设计自动化管线，加速推理（缓存中间结果）。</li>
+                    <li>实现：训练自动复位policy，从指定环境下任意状态出发，将场景回归到任务初始状态</li>
+                </ul>                  
                 <li>课题导师：卢策吾（<a class="text-o-blue hover:text-o-hover" href="https://www.mvig.org/" target="_blank">mvig.org</a>）、李弘扬（<a class="text-o-blue hover:text-o-hover" href="https://lihongyang.info/" target="_blank">lihongyang.info</a> / <a class="text-o-blue hover:text-o-hover" href="https://opendrivelab.com/" target="_blank">opendrivelab.com</a>）</li>
             </ul>
 
@@ -161,11 +166,15 @@
         <div class="mt-20 flex flex-col gap-6">
 
             <h2 class="text-o-blue">
-                [Embodied02] 自视觉语言模型形成多维度评测标准（模型能力光谱图，错因分析）
+                [Embodied02] 自视觉语言模型形成多维度评测标准
             </h2>
 
             <ul class="ml-6 space-y-2 list-outside list-disc">
-                <li>课题介绍：xxx</li>
+                <li>课题介绍：</li>
+                <ul class="ml-6 space-y-2 list-outside list-disc">
+                    <li>目的：VLM评测视频中机械臂的任务完成情况与中间状态，提供partial reward。构建模型能力光谱图，提供错因分析等。</li>
+                    <li>做法：参考World Model Evaluator（<a class="text-o-blue hover:text-o-hover" href="https://arxiv.org/pdf/2506.00613" target="_blank">2506.00613</a>），设计鲁棒的VLM评测视频的方法与流程。</li>
+                </ul>
                 <li>课题导师：卢策吾（<a class="text-o-blue hover:text-o-hover" href="https://www.mvig.org/" target="_blank">mvig.org</a>）、李弘扬（<a class="text-o-blue hover:text-o-hover" href="https://lihongyang.info/" target="_blank">lihongyang.info</a> / <a class="text-o-blue hover:text-o-hover" href="https://opendrivelab.com/" target="_blank">opendrivelab.com</a>）</li>
             </ul>
 
@@ -176,11 +185,15 @@
         <div class="mt-20 flex flex-col gap-6">
 
             <h2 class="text-o-blue">
-                [Embodied03] 生成式世界模型打造通用评测管线（多模态可控视频生成，视频后提取action verify）
+                [Embodied03] 生成式世界模型打造通用评测管线
             </h2>
 
             <ul class="ml-6 space-y-2 list-outside list-disc">
-                <li>课题介绍：xxx</li>
+                <li>课题介绍：</li>
+                <ul class="ml-6 space-y-2 list-outside list-disc">
+                    <li>目的：可控视频生成，基于robotics policy的输出action（joint state，eef等）与初始帧，生成基于action演化的多个未来帧。多模态可控视频生成（包含lidar，depth等机器人特有传感数据），生成视频后通过三维视觉技术提取机械臂action做cross verify。</li>
+                    <li>做法：参考Enerverse-AC（<a class="text-o-blue hover:text-o-hover" href="https://github.com/AgibotTech/EnerVerse-AC" target="_blank">github.com/AgibotTech/EnerVerse-AC</a>），设计与训练一致性强的action-condition video model。</li>
+                </ul>                
                 <li>课题导师：卢策吾（<a class="text-o-blue hover:text-o-hover" href="https://www.mvig.org/" target="_blank">mvig.org</a>）、李弘扬（<a class="text-o-blue hover:text-o-hover" href="https://lihongyang.info/" target="_blank">lihongyang.info</a> / <a class="text-o-blue hover:text-o-hover" href="https://opendrivelab.com/" target="_blank">opendrivelab.com</a>）</li>
             </ul>
 
@@ -191,11 +204,15 @@
         <div class="mt-20 flex flex-col gap-6">
 
             <h2 class="text-o-blue">
-                [Embodied04] 零/少样本新技能学习能力评测（自我纠正/学习，自我演进）
+                [Embodied04] 三维重建真实世界闭环仿真
             </h2>
 
             <ul class="ml-6 space-y-2 list-outside list-disc">
-                <li>课题介绍：xxx</li>
+                <li>课题介绍：</li>
+                <ul class="ml-6 space-y-2 list-outside list-disc">
+                    <li>目的：实现前背景分离的三维重建真实场景，支持机械臂对前景物体的操作与逆动力学场景网格重建。</li>
+                    <li>做法：参考roboarena（<a class="text-o-blue hover:text-o-hover" href="https://beam-workshop2025.github.io/" target="_blank">beam-workshop2025.github.io</a>），用三维重建技术如3dgs等重建真实场景，基于此做三维场景编辑等。</li>
+                </ul>                
                 <li>课题导师：卢策吾（<a class="text-o-blue hover:text-o-hover" href="https://www.mvig.org/" target="_blank">mvig.org</a>）、李弘扬（<a class="text-o-blue hover:text-o-hover" href="https://lihongyang.info/" target="_blank">lihongyang.info</a> / <a class="text-o-blue hover:text-o-hover" href="https://opendrivelab.com/" target="_blank">opendrivelab.com</a>）</li>
             </ul>
 
@@ -206,11 +223,14 @@
         <div class="mt-20 flex flex-col gap-6">
 
             <h2 class="text-o-blue">
-                [Embodied04] 三维重建真实世界闭环仿真（逆动力学场景网格重建）
+                [Embodied05] 零/少样本新技能学习能力评测
             </h2>
 
             <ul class="ml-6 space-y-2 list-outside list-disc">
-                <li>课题介绍：xxx</li>
+                <li>课题介绍：</li>
+                <ul class="ml-6 space-y-2 list-outside list-disc">
+                    <li>目的：评测robotics manipulation policy的“举一反三”能力。模型是否具备自我纠正/学习、自我演进的能力。</li>
+                </ul>               
                 <li>课题导师：卢策吾（<a class="text-o-blue hover:text-o-hover" href="https://www.mvig.org/" target="_blank">mvig.org</a>）、李弘扬（<a class="text-o-blue hover:text-o-hover" href="https://lihongyang.info/" target="_blank">lihongyang.info</a> / <a class="text-o-blue hover:text-o-hover" href="https://opendrivelab.com/" target="_blank">opendrivelab.com</a>）</li>
             </ul>
 
@@ -221,11 +241,11 @@
         <div class="mt-20 flex flex-col gap-6">
 
             <h2 class="text-o-blue">
-                [Embodied06] 多机/人机协作场景设计与评测（主动感知，主动介入）
+                [Embodied06] 多机/人机协作场景设计与评测
             </h2>
 
             <ul class="ml-6 space-y-2 list-outside list-disc">
-                <li>课题介绍：xxx</li>
+                <li>课题介绍：多台不同构型的机器人或人机交互场景下，评测机器人manipulation policy是否具备主动感知，主动介入，主动获取完成任务所缺失的关键信息等能力。</li>              
                 <li>课题导师：卢策吾（<a class="text-o-blue hover:text-o-hover" href="https://www.mvig.org/" target="_blank">mvig.org</a>）、李弘扬（<a class="text-o-blue hover:text-o-hover" href="https://lihongyang.info/" target="_blank">lihongyang.info</a> / <a class="text-o-blue hover:text-o-hover" href="https://opendrivelab.com/" target="_blank">opendrivelab.com</a>）</li>
             </ul>
 
