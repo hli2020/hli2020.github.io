@@ -33,13 +33,13 @@ export default function Home() {
                             </p>
 
                             <ul className="ml-6 list-outside list-disc space-y-3">
-                                <li>
+                                <li className="leading-loose">
                                     Academic page: <Link href="https://datascience.hku.hk/people/hongyang-li/" target="_blank" className="text-o-blue animated-underline break-words">https://datascience.hku.hk/people/hongyang-li/</Link>
                                 </li>
-                                <li>
+                                <li className="leading-loose">
                                     Email: <Link href="mailto:hongyang@hku.hk" className="text-o-blue animated-underline">hongyang@hku.hk</Link> or <Link href="mailto:hy@opendrivelab.com" className="text-o-blue animated-underline">hy@opendrivelab.com</Link>
                                 </li>
-                                <li>
+                                <li className="leading-loose">
                                     Office: Room P307B, Graduate House, 3 University Drive, HKU
                                 </li>
                             </ul>
@@ -96,13 +96,13 @@ export default function Home() {
             <div className="w-full px-6 flex justify-center mt-6">
                 <div className="w-full max-w-5xl flex">
                     <ul className="ml-6 list-outside list-disc space-y-3">
-                        <li>
+                        <li className="leading-loose">
                             Post-doc / Ph.D. / MPhil: please send me an email. We usually hire <Link href="https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme" target="_blank" className="text-o-blue animated-underline">HKPFS</Link> or <Link href="https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hku_presidential_phd_scholar_programme" target="_blank" className="text-o-blue animated-underline">HKU Presidential Scholarship</Link> level candidate
                         </li>
-                        <li>
+                        <li className="leading-loose">
                             Research Assistant / Internship: please send request to <Link href="mailto:recruit@opendrivelab.com" target="_blank" className="text-o-blue animated-underline">recruit@opendrivelab.com</Link>
                         </li>
-                        <li>
+                        <li className="leading-loose">
                             For full-time employee (FTE) at HKU  / Shanghai Innovation Institute, we would be happy to recruit Research Scientist / Engineer / Staff in Embodied AI and Autonomous Driving!
                         </li>
                     </ul>
@@ -131,14 +131,14 @@ export default function Home() {
 
             <div className="w-full px-6 flex justify-center mt-6">
                 <div className="w-full max-w-5xl flex flex-col gap-6">
-                    <p>
+                    <p className="leading-relaxed">
                         Hongyang Li is an Assistant Professor at Musketeers Foundation Institute of Data Science, University of Hong Kong and has led OpenDriveLab (<Link href="https://opendrivelab.com/" target="_blank" className="text-o-blue animated-underline">opendrivelab.com</Link>) since 2021. His research focus is on autonomous driving and embodied AI. He led the end-to-end autonomous driving project, UniAD and won the IEEE CVPR 2023 Best Paper Award. UniAD has a tremendous impact both in academia and industry, including the recent rollout to customers by Tesla in FSD V12. He created the first large-scale real robot ecosystem, AgiBot World, that systematically investigated the scaling law principles for robotic manipulation. He proposed the bird's-eye-view perception work, BEVFormer, that won Top 100 AI Papers in 2022. He served as Area Chair for CVPR, NeurIPS (including 2023 Notable AC), ICLR, ICCV, ICML, RSS, referee for Nature Communications, Guest Editor at Automotive Innovations. He is the Working Group Chair for IEEE Standards P3474 under Vehicular Technology Society. He is the Senior Member of IEEE, CCF and CSIG. He is the recipient of China AI Wu Wen Jun Early Career Award 2024.
                     </p>
                     <details className="group inline-block">
                         <summary className="inline-block text-o-blue animated-underline hover:cursor-pointer select-none group-open:bg-foreground/6">
                             中文简介
                         </summary>
-                        <p className="bg-foreground/6 pt-2 pb-2">
+                        <p className="bg-foreground/6 pt-2 pb-2 leading-relaxed">
                             李弘扬，香港大学数据科学研究院助理教授，OpenDriveLab团队（<Link href="https://opendrivelab.com/" target="_blank" className="text-o-blue animated-underline">opendrivelab.com</Link>）联合创始人。研究方向为端到端智能系统在机器人、自动驾驶的应用。他主导的端到端自动驾驶方案UniAD于2022年提出，获IEEE CVPR 2023最佳论文奖。UniAD等系列工作产生了明显的社会经济效益，包括特斯拉于2023年推出的端到端FSD。他构造的超大规模具身智能训练场AgiBot World，是业界首个百万真机、千万仿真数据集，系统研究具身Scaling Law方法论。他提出的俯视图感知方法BEVFormer，获2022年百强影响力人工智能论文榜单，成为业界广泛使用的纯视觉检测基准。他多次担任CVPR、NeurIPS、ICLR、ICCV、ICML、RSS等国际会议领域主席（AC），其中获得NeurIPS 2023 Notable AC。他是《自然·通讯》的审稿人、期刊《Automotive Innovations》客座编委。IEEE、CCF、CSIG高级会员、IEEE汽车委员会自动驾驶国际标准工作组组长。荣获2024年中国吴文俊人工智能青年科技奖、2023年上海市东方英才计划领军项目。
                         </p>
                     </details>
@@ -168,16 +168,16 @@ export default function Home() {
             <div className="w-full px-6 flex justify-center mt-6">
                 <div className="w-full max-w-5xl flex">
                     <ul className="ml-6 list-outside list-disc space-y-3">
-                        <li>
+                        <li className="leading-loose">
                             Focus:  AI for Robotics, Autonomous Driving, 3D Vision, Foundation Models
                         </li>
-                        <li>
+                        <li className="leading-loose">
                             <Link href="https://scholar.google.com/citations?user=Hfrih1EAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" className="text-o-blue animated-underline">Google Scholar</Link>
                         </li>
-                        <li>
+                        <li className="leading-loose">
                             <Link href="https://hub.hku.hk/cris/rp/rp03401" target="_blank" className="text-o-blue animated-underline">HKU Scholars Hub</Link>
                         </li>
-                        <li>
+                        <li className="leading-loose">
                             <Link href="https://opendrivelab.com/publications/" target="_blank" className="text-o-blue animated-underline">Publications</Link> from OpenDriveLab
                         </li>
                     </ul>
@@ -207,14 +207,14 @@ export default function Home() {
             <div className="w-full px-6 flex justify-center mt-6">
                 <div className="w-full max-w-5xl flex">
                     <ul className="ml-6 list-outside list-disc space-y-3">
-                        <li>
+                        <li className="leading-loose">
                             IDSS2501: Embodied AI 101
                             <br></br>
                             Time: Jul. 22 - Aug. 1, 2025,
                             <br></br>
                             Resource: <Link href="https://datascience.hku.hk/2024/12/hku-summer-institute-2025-idss-2501-welcomes-applications-from-undergraduates/" target="_blank" className="text-o-blue animated-underline">homepage</Link>
                         </li>
-                        <li>
+                        <li className="leading-loose">
                             CCAI9025: AI-driven Robotics for Humankind
                             <br></br>
                             Time: Wed. 13:00-14:50, Sep. 01 - Nov 29, Fall 2025
@@ -222,8 +222,10 @@ export default function Home() {
                             Venue: Wang Gungwu Lecture Hall(WLGH), Graduate House
                             <br></br>
                             For undergraduate year 1 or 2 to all department
+                            <br></br>
+                            Website to be released.
                         </li>
-                        <li>
+                        <li className="leading-loose">
                             DATA8017: Fundamentals of Autonomous Intelligent Systems
                             <br></br>
                             Time: Fri. 14:00-16:50, Sep. 01 - Nov 29, Fall 2025
@@ -231,6 +233,8 @@ export default function Home() {
                             Venue: IDS P603 Seminar Room, Graduate House 
                             <br></br>
                             For MPhil or Ph.D.
+                            <br></br>
+                            Website to be released.
                         </li>
                     </ul>
                 </div>
@@ -261,8 +265,8 @@ export default function Home() {
 
 
 
-                    <li>
-                        <p>
+                    <li className="leading-loose">
+                        <p className="leading-relaxed">
                             Talk on "What are Good (Pre-training) Representations for Robotic Manipulation?", 
                             TU Delft, Netherlands,
                             July 2024,
@@ -282,8 +286,8 @@ export default function Home() {
 
 
 
-                    <li>
-                        <p>
+                    <li className="leading-loose">
+                        <p className="leading-relaxed">
                             Talk on "Could Foundation Models really resolve End-to-end Autonomy?",
                             Tutorial on <Link href="https://wayve.ai/cvpr-e2ead-tutorial/" target="_blank" className="text-o-blue animated-underline">End-to-End Autonomy: A New Era of Self-Driving</Link>, 
                             CVPR 2024, Seattle, USA. <Link href="/content/Wayve_Tutorial_CVPR2024_Hongyang.pdf" target="_blank" className="text-o-blue animated-underline">slides</Link>
