@@ -21,7 +21,6 @@ export const metadata: Metadata = {
         icon: [
             {
                 url: "/content/hku-64.png",
-                href: "/content/hku-64.png",
             },
         ],
     },
