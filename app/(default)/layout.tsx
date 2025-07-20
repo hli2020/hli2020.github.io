@@ -14,7 +14,7 @@ export default function RootLayout({
 
             <footer className="w-full px-6 my-24 gap-6 flex flex-col items-center select-none">
 
-                <div className="w-full max-w-5xl text-xs">
+                <div className="w-full max-w-5xl text-xs text-right">
                     All rights reserved © 2019 - 2025
                 </div>
 
