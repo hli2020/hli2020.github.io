@@ -221,7 +221,7 @@ export default function Home() {
                             <br></br>
                             Venue: Wang Gungwu Lecture Hall(WLGH), Graduate House
                             <br></br>
-                            For: Undergraduate Year 1 or 2, to all department
+                            For undergraduate year 1 or 2 to all department
                         </li>
                         <li>
                             DATA8017: Fundamentals of Autonomous Intelligent Systems
@@ -230,7 +230,7 @@ export default function Home() {
                             <br></br>
                             Venue: IDS P603 Seminar Room, Graduate House 
                             <br></br>
-                            For: RPg-level (MPhil or Ph.D.)
+                            For MPhil or Ph.D.
                         </li>
                     </ul>
                 </div>
