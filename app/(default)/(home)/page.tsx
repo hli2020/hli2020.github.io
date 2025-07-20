@@ -270,7 +270,7 @@ export default function Home() {
                             Talk on "What are Good (Pre-training) Representations for Robotic Manipulation?", 
                             TU Delft, Netherlands,
                             July 2024,
-                            in conjunction with RSS 2024. <Link href="/content/TUDelft_Talk_MPI.pdf" target="_blank" className="text-o-blue animated-underline">slides</Link>
+                            in conjunction with RSS 2024. <Link href="https://youtu.be/reNxFagbDoU?si=DtDuuV72E0iiUU-a" target="_blank" className="text-o-blue animated-underline">YouTube</Link> / <Link href="/content/TUDelft_Talk_MPI.pdf" target="_blank" className="text-o-blue animated-underline">Slides</Link>
                         </p>
                         <div className="max-w-xl">
                             <AspectRatio ratio={16/9} className="rounded-sm overflow-hidden bg-gradient-landing mt-3">
@@ -290,7 +290,7 @@ export default function Home() {
                         <p className="leading-relaxed">
                             Talk on "Could Foundation Models really resolve End-to-end Autonomy?",
                             Tutorial on <Link href="https://wayve.ai/cvpr-e2ead-tutorial/" target="_blank" className="text-o-blue animated-underline">End-to-End Autonomy: A New Era of Self-Driving</Link>, 
-                            CVPR 2024, Seattle, USA. <Link href="/content/Wayve_Tutorial_CVPR2024_Hongyang.pdf" target="_blank" className="text-o-blue animated-underline">slides</Link>
+                            CVPR 2024, Seattle, USA. <Link href="https://youtu.be/8XOpjf6jAxg?si=FbETOTzYyNWwA31G&t=2677" target="_blank" className="text-o-blue animated-underline">YouTube</Link> / <Link href="/content/Wayve_Tutorial_CVPR2024_Hongyang.pdf" target="_blank" className="text-o-blue animated-underline">Slides</Link>
                         </p>
                         <div className="max-w-xl">
                             <AspectRatio ratio={16/9} className="rounded-sm overflow-hidden bg-gradient-landing mt-3">
