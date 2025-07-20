@@ -6,8 +6,8 @@ export const NavigatorPage: {
 } = {
     "/": [
         {
-            text: "Perspective",
-            id: "perspective",
+            text: "Prospective",
+            id: "prospective",
         },
         {
             text: "Biography",
