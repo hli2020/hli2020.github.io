@@ -261,7 +261,7 @@ export default function Home() {
 
 
             <div className="w-full px-6 flex justify-center mt-6">
-                <ul className="px-6 list-outside list-disc w-full max-w-5xl grid gap-y-6 gap-x-12 grid-cols-1 lg:grid-cols-2">
+                <ul className="pl-6 list-outside list-disc w-full max-w-5xl grid gap-y-6 gap-x-12 grid-cols-1 lg:grid-cols-2">
 
 
 
