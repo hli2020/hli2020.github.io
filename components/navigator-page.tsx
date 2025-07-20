@@ -22,30 +22,26 @@ export const NavigatorPage: {
             id: "teaching",
         },
         {
-            text: "talk",
+            text: "Talk",
             id: "talk",
         },
     ],
     "/recruit": [
         {
-            text: "具身智能",
-            id: "embodied",
+            text: "Prospective",
+            id: "prospective",
         },
         {
-            text: "自動駕駛",
-            id: "driving",
+            text: "Support",
+            id: "support",
         },
         {
-            text: "生態合作",
-            id: "ecosystem",
+            text: "Position",
+            id: "position",
         },
         {
-            text: "團隊介紹",
-            id: "introduction",
-        },
-        {
-            text: "申請方式",
-            id: "apply",
+            text: "Contact",
+            id: "contact",
         },
     ],
 };
