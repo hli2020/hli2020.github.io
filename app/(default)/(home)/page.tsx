@@ -19,7 +19,7 @@ export default function Home() {
 
 
             <div className="w-full px-6 flex justify-center mt-24 lg:mt-36">
-                <div className="w-full max-w-5xl flex flex-col gap-6 leading-relaxed">
+                <div className="w-full max-w-5xl flex flex-col gap-6">
                     <div className="flex flex-col-reverse lg:flex-row justify-between gap-10">
 
                         <div className="flex flex-col gap-6">
@@ -34,7 +34,7 @@ export default function Home() {
 
                             <ul className="ml-6 list-outside list-disc space-y-3">
                                 <li>
-                                    Academic page: <Link href="https://datascience.hku.hk/people/hongyang-li/" target="_blank" className="text-o-blue animated-underline">https://datascience.hku.hk/people/hongyang-li/</Link>
+                                    Academic page: <Link href="https://datascience.hku.hk/people/hongyang-li/" target="_blank" className="text-o-blue animated-underline break-words">https://datascience.hku.hk/people/hongyang-li/</Link>
                                 </li>
                                 <li>
                                     Email: <Link href="mailto:hongyang@hku.hk" className="text-o-blue animated-underline">hongyang@hku.hk</Link> or <Link href="mailto:hy@opendrivelab.com" className="text-o-blue animated-underline">hy@opendrivelab.com</Link>
