@@ -2,17 +2,10 @@
 
 
 
-import { ChevronDown } from "lucide-react"
-import Image from 'next/image'
 import Link from "next/link"
 
 
 
-import {
-    Collapsible,
-    CollapsibleContent,
-    CollapsibleTrigger,
-} from "@/components/ui/collapsible"
 import {
     Sidebar,
     SidebarContent,
@@ -26,17 +19,6 @@ import {
     SidebarMenuSub,
 } from "@/components/ui/sidebar"
 import { useSidebar } from "@/components/ui/sidebar"
-import { Button } from "@/components/ui/button"
-import {
-    Drawer,
-    DrawerClose,
-    DrawerContent,
-    DrawerDescription,
-    DrawerFooter,
-    DrawerHeader,
-    DrawerTitle,
-    DrawerTrigger,
-} from "@/components/ui/drawer"
 
 
 
@@ -50,10 +32,7 @@ function PageSidebar() {
 
     if (content_page != null) {
         return (
-            <SidebarMenu className="mb-12 px-8 text-xs overflow-y-scroll no-scrollbar">
-                <span className="font-bold p-2 select-none text-foreground/50">
-                    This Page
-                </span>
+            <SidebarMenu className="mb-12 px-12 text-xs overflow-y-scroll no-scrollbar">
                 {
                     content_page.map((item) => (
                         <Link key={item.text} href={"#" + item.id}  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
@@ -78,116 +57,13 @@ export function AppSidebar() {
     return (
         <FadeIn>
             <Sidebar>
-                <div className="fixed flex md:hidden flex-row gap-3 m-6 z-20 flex-wrap">
-                    <Button asChild className="bg-background text-foreground hover:bg-white group">
-                        <Link href="/" className="select-none">
-                            <Image
-                                src="/content/hku-64.png"
-                                alt="HKU"
-                                width={24}
-                                height={24}
-                            className="group-hover:scale-125 transition delay-100 duration-200"
-                            />
-                        </Link>
-                    </Button>
-                </div>
-
-
-                <div className="mt-24 overflow-y-scroll no-scrollbar">
-
-
-                    {
-                        content_page != null && (
-
-
-                            
-                            <SidebarMenu className="mb-12 px-8 text-xs overflow-y-scroll no-scrollbar">
 
 
 
-                                <span className="font-bold p-2 select-none text-foreground/50">
-                                    OpenDriveLab
-                                </span>
+                <div className="h-full flex flex-col justify-center overflow-y-scroll no-scrollbar">
 
 
-
-                                <Link href="/projects" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                    Project
-                                </Link>
-                                {/* <Collapsible className="group/collapsible flex flex-col gap-6">
-                                    <SidebarMenuItem>
-                                        <CollapsibleTrigger className="w-full flex flex-row justify-between items-center p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            Project
-                                            <ChevronDown className="size-4 transition-transform group-data-[state=closed]/collapsible:rotate-270 group-data-[state=open]/collapsible:rotate-0" />
-                                        </CollapsibleTrigger>
-                                        <CollapsibleContent>
-                                            <SidebarMenuSub>
-                                                <Link href="/AgiBot-World" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                                    AgiBot World
-                                                </Link>
-                                                <Link href="/projects"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                                    more
-                                                </Link>
-                                            </SidebarMenuSub>
-                                        </CollapsibleContent>
-                                    </SidebarMenuItem>
-                                </Collapsible> */}
-
-
-                                <Link href="/publications" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                    Publication
-                                </Link>
-                                {/* <Collapsible className="group/collapsible flex flex-col gap-6">
-                                    <SidebarMenuItem>
-                                        <CollapsibleTrigger className="w-full flex flex-row justify-between items-center p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            Publication
-                                            <ChevronDown className="size-4 transition-transform group-data-[state=closed]/collapsible:rotate-270 group-data-[state=open]/collapsible:rotate-0" />
-                                        </CollapsibleTrigger>
-                                        <CollapsibleContent>
-                                            <SidebarMenuSub>
-                                                <Link href="https://github.com/OpenDriveLab/UniVLA" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                                    UniVLA
-                                                </Link>
-                                                <Link href="https://github.com/OpenDriveLab/UniAD" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                                    UniAD
-                                                </Link>
-                                                <Link href="/publications"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                                    more
-                                                </Link>
-                                            </SidebarMenuSub>
-                                        </CollapsibleContent>
-                                    </SidebarMenuItem>
-                                </Collapsible> */}
-
-
-
-                                <Link href="/team" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                    Team
-                                </Link>
-
-
-
-                                <Link href="/recruit" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                    Recruit
-                                </Link>
-
-
-
-                                <Link href="https://github.com/sponsors/OpenDriveLab" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                    Sponsor
-                                </Link>
-
-
-
-                            </SidebarMenu>
-
-
-
-                        )
-                    }
                 
-
-
                     <PageSidebar/>
 
 

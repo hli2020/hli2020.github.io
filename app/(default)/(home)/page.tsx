@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-    title: "Recruit | OpenDriveLab",
-    description: "OpenDriveLab is committed to exploring cutting-edge embodied AI technology, launching a series of benchmarking work, open source to serve the community, and promote the common development of the industry. Friends who are committed to making influential research are welcome to join!",
-    keywords: ["Recruit", "OpenDriveLab", "Robotics", "Embodied AI", "Autonomous Driving", "HKU", "SII"],
+    title: "Hongyang Li, Assistant Professor at HKU",
+    keywords: ["Hongyang Li", "HKU", "Embodied AI", "Autonomous Driving"],
 };
 
 
 
+import Image from 'next/image'
 import Link from "next/link"
+import { AspectRatio } from "@/components/ui/aspect-ratio"
 
 
 
@@ -17,335 +18,57 @@ export default function Home() {
 
 
 
-            <div className="w-full px-6 flex justify-center mt-36 md:mt-24">
-                <div className="w-full max-w-7xl flex flex-col gap-6 fg-gradient-blue">
-                    <h1 className="text-t0 font-bold">
-                        團隊招聘需求
-                    </h1>
-                </div>
-            </div>
+            <div className="w-full px-6 flex justify-center mt-24 lg:mt-36">
+                <div className="w-full max-w-5xl flex flex-col gap-6 leading-relaxed">
+                    <div className="flex flex-col-reverse lg:flex-row justify-between gap-10">
 
+                        <div className="flex flex-col gap-6">
 
+                            <h1 className="text-center text-t0 font-bold">
+                                Hongyang Li
+                            </h1>
 
-            <div className="w-full px-6 flex justify-center mt-24">
-                <div className="w-full max-w-7xl flex flex-col gap-6 leading-relaxed">
-                    <p>
-                        OpenDriveLab 長期深耕具身智能與自動駕駛領域。團隊端到端自動駕駛項目 UniAD，獲得 <Link className="text-o-blue animated-underline" href="https://cvpr2023.thecvf.com/Conferences/2023/Awards" target="_blank">IEEE CVPR 2023 最佳論文獎</Link> 。團隊俯視圖感知工作 BEVFormer，獲得 <Link className="text-o-blue animated-underline" href="https://www.zeta-alpha.com/post/must-read-the-100-most-cited-ai-papers-in-2022" target="_blank">2022 年百強影響力人工智能論文榮譽</Link> 。團隊積極參與社區建設，舉辦國際挑戰賽，並推進 IEEE 國際標準建設。
-                    </p>
-                    <p>
-                        合作團隊包括香港大學（馬毅老師、羅平老師）、上海交通大學（嚴駿馳老師）等等。
-                    </p>
-                </div>
-            </div>
+                            <p>
+                                Assistant Professor, Institute of Data Science, The University of Hong Kong 
+                            </p>
 
+                            <ul className="ml-6 list-outside list-disc space-y-3">
+                                <li>
+                                    Academic page: <Link href="https://datascience.hku.hk/people/hongyang-li/" target="_blank" className="text-o-blue animated-underline">https://datascience.hku.hk/people/hongyang-li/</Link>
+                                </li>
+                                <li>
+                                    Email: <Link href="mailto:hongyang@hku.hk" className="text-o-blue animated-underline">hongyang@hku.hk</Link> or <Link href="mailto:hy@opendrivelab.com" className="text-o-blue animated-underline">hy@opendrivelab.com</Link>
+                                </li>
+                                <li>
+                                    Office: Room P307B, Graduate House, 3 University Drive, HKU
+                                </li>
+                            </ul>
 
+                        </div>
 
-            <div className="w-full px-6 flex justify-center mt-24">
-                <div className="w-full max-w-7xl flex">
-                    <h2 className="text-t1"> 
-                        <Link href='#embodied' className="scroll-mt-32 group flex items-center" id='embodied'>
-                            具身智能
-                            <span className="ml-6 hidden group-hover:inline-block size-6 text-foreground">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                    <path d="M15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L12.5 6.06212" strokeWidth="2.5" strokeLinecap="round"/>
-                                    <path d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373" strokeWidth="2.5" strokeLinecap="round"/>
-                                </svg>
-                            </span>
-                        </Link>
-                    </h2>
-                </div>
-            </div>
+                        <div className="flex flex-col justify-center items-center">
+                            <Image
+                                src="/content/hongyang_li.jpg"
+                                alt="Hongyang Li"
+                                width={512}
+                                height={512}
+                                className="max-w-2xs bg-gradient-landing rounded-sm group-hover:scale-103 transition delay-100 duration-200"
+                            />
+                        </div>
 
-
-
-            <div className="w-full px-6 flex justify-center mt-12">
-                <div className="w-full max-w-7xl flex flex-col gap-6 leading-relaxed">
-                    <h3 className="text-xl">
-                        具身智能研究員
-                    </h3>
-                    <ul className="ml-6 space-y-3 list-outside list-disc">
-                        <li>
-                            崗位性質：Ph.D. / Master / Postdoc / Research Assistant / 校招 / 社招 / 實習
-                        </li>
-                        <li>
-                            工作地點：香港 / 上海 / 深圳
-                        </li>
-                    </ul>
-                    <h4>
-                        崗位要求
-                    </h4>
-                    <ul className="ml-6 space-y-3 list-outside list-disc">
-                        <li>
-                            探索機器學習在具身智能領域運用，產出有影響力的工作
-                        </li>
-                        <li>
-                            計算機科學、人工智能、機器人、電子工程、自動化、應用數學等相關專業優先，有相關研究或工作經驗者優先
-                        </li>
-                        <li>
-                            紮實的編程實現能力，熟練使用 Python 等編程語言
-                        </li>
-                        <li>
-                            擁有強大的動手能力與豐富的工程落地經驗，瞭解並熱愛具身智能領域
-                        </li>
-                        <li>
-                            具有飽滿的科研熱情，熱衷探索前沿技術，想要做有影響力的工作
-                        </li>
-                        <li>
-                            熟悉最新具身智能相關工作（如 HumanPlus、RDT、UMI 等）
-                        </li>
-                        <li>
-                            具備有機器人等平台硬件開發能力者優先
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-            <div className="w-full px-6 flex justify-center mt-12">
-                <div className="w-full max-w-7xl flex flex-col gap-6 leading-relaxed">
-                    <h3 className="text-xl">
-                        機器人硬件工程師
-                    </h3>
-                    <ul className="ml-6 space-y-3 list-outside list-disc">
-                        <li>
-                            崗位性質：Ph.D. / Master / Postdoc / Research Assistant / 校招 / 社招 / 實習
-                        </li>
-                        <li>
-                            工作地點：香港 / 上海 / 深圳
-                        </li>
-                    </ul>
-                    <h4>
-                        崗位要求
-                    </h4>
-                    <ul className="ml-6 space-y-3 list-outside list-disc">
-                        <li>
-                            負責具身智能領域相關開發，包括但不限於 Humanoid、DexHand、Manipulation 等
-                        </li>
-                        <li>
-                            計算機科學、人工智能、機器人、電子工程、自動化、應用數學等相關專業優先，有相關研究或工作經驗者優先
-                        </li>
-                        <li>
-                            紮實的編程實現能力，熟練使用C++，Python等編程語言
-                        </li>
-                        <li>
-                            擁有強大的動手能力與豐富的工程落地經驗，瞭解並熱愛具身智能領域
-                        </li>
-                        <li>
-                            熟練使用機器人操作系統及仿真平台，有機器人相關領域的算法研發以及項目落地經驗
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-            <div className="w-full px-6 flex justify-center mt-24">
-                <div className="w-full max-w-7xl flex">
-                    <h2 className="text-t1"> 
-                        <Link href='#driving' className="scroll-mt-32 group flex items-center" id='driving'>
-                            自動駕駛
-                            <span className="ml-6 hidden group-hover:inline-block size-6 text-foreground">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                    <path d="M15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L12.5 6.06212" strokeWidth="2.5" strokeLinecap="round"/>
-                                    <path d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373" strokeWidth="2.5" strokeLinecap="round"/>
-                                </svg>
-                            </span>
-                        </Link>
-                    </h2>
-                </div>
-            </div>
-
-
-
-            <div className="w-full px-6 flex justify-center mt-12">
-                <div className="w-full max-w-7xl flex flex-col gap-6 leading-relaxed">
-                    <h3 className="text-xl">
-                        自動駕駛研究員
-                    </h3>
-                    <ul className="ml-6 space-y-3 list-outside list-disc">
-                        <li>
-                            崗位性質：Ph.D. / Master / Postdoc / Research Assistant / 校招 / 社招 / 實習
-                        </li>
-                        <li>
-                            工作地點：香港 / 上海 / 深圳
-                        </li>
-                    </ul>
-                    <h4>
-                        崗位要求
-                    </h4>
-                    <ul className="ml-6 space-y-3 list-outside list-disc">
-                        <li>
-                            探索機器學習在自動駕駛領域運用，產出有影響力的工作
-                        </li>
-                        <li>
-                            計算機科學、人工智能、機器人、電子工程、自動化、應用數學等相關專業優先，有相關研究或工作經驗者優先
-                        </li>
-                        <li>
-                            紮實的編程實現能力，熟練使用 Python 等編程語言
-                        </li>
-                        <li>
-                            擁有強大的動手能力與豐富的工程落地經驗，瞭解並熱愛自動駕駛領域
-                        </li>
-                        <li>
-                            具有飽滿的科研熱情，熱衷探索前沿技術，想要做有影響力的工作
-                        </li>
-                        <li>
-                            熟悉最新自動駕駛相關工作
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-            <div className="w-full px-6 flex justify-center mt-24">
-                <div className="w-full max-w-7xl flex">
-                    <h2 className="text-t1"> 
-                        <Link href='#ecosystem' className="scroll-mt-32 group flex items-center" id='ecosystem'>
-                            生態合作
-                            <span className="ml-6 hidden group-hover:inline-block size-6 text-foreground">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                    <path d="M15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L12.5 6.06212" strokeWidth="2.5" strokeLinecap="round"/>
-                                    <path d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373" strokeWidth="2.5" strokeLinecap="round"/>
-                                </svg>
-                            </span>
-                        </Link>
-                    </h2>
-                </div>
-            </div>
-
-
-
-            <div className="w-full px-6 flex justify-center mt-12">
-                <div className="w-full max-w-7xl flex flex-col gap-6 leading-relaxed">
-                    <h3 className="text-xl">
-                        科研助理 / 生態合作助理
-                    </h3>
-                    <ul className="ml-6 space-y-3 list-outside list-disc">
-                        <li>
-                            崗位性質：校招 / 社招 / 實習
-                        </li>
-                        <li>
-                            工作地點：香港 / 上海
-                        </li>
-                    </ul>
-                    <h4>
-                        崗位要求
-                    </h4>
-                    <ul className="ml-6 space-y-3 list-outside list-disc">
-                        <li>
-                            有相關研究或工作經驗者優先
-                        </li>
-                        <li>
-                            瞭解並熱愛深度學習領域，瞭解最新深度學習相關工作
-                        </li>
-                        <li>
-                            具有飽滿的熱情，熱衷探索前沿技術，想要做有影響力的工作
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-            <div className="w-full px-6 flex justify-center mt-24">
-                <div className="w-full max-w-7xl flex">
-                    <h2 className="text-t1"> 
-                        <Link href='#introduction' className="scroll-mt-32 group flex items-center" id='introduction'>
-                            團隊介紹
-                            <span className="ml-6 hidden group-hover:inline-block size-6 text-foreground">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                    <path d="M15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L12.5 6.06212" strokeWidth="2.5" strokeLinecap="round"/>
-                                    <path d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373" strokeWidth="2.5" strokeLinecap="round"/>
-                                </svg>
-                            </span>
-                        </Link>
-                    </h2>
-                </div>
-            </div>
-
-
-
-            <div className="w-full px-6 flex justify-center mt-12">
-                <div className="w-full max-w-7xl flex flex-col gap-6 leading-relaxed">
-                    <h3 className="text-xl">
-                        往期工作
-                    </h3>
-                    <div>
-                        <span>團隊最新工作詳見：<Link href="/publications" className="text-o-blue animated-underline">opendrivelab.com/publications</Link> </span>
                     </div>
-                    <h4>
-                        端到端自動駕駛
-                    </h4>
-                    <ul className="ml-6 space-y-3 list-outside list-disc">
-                        <li>
-                            UniAD (Planning-Oriented Autonomous Driving)，CVPR 2023 Best Paper Award，近十年中國學術機構作為第一單位首次獲CVPR最佳論文獎。<Link href="https://arxiv.org/abs/2212.10156" target="_blank" className="text-o-blue animated-underline">arXiv:2212.10156</Link> 
-                        </li>
-                    </ul>
-                    <h4>
-                        自動駕駛世界模型等原創技術
-                    </h4>
-                    <ul className="ml-6 space-y-3 list-outside list-disc">
-                        <li>
-                            Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability，NeurIPS 2024，高質量、可泛化的駕駛視頻生成模型。<Link href="https://arxiv.org/abs/2405.17398" target="_blank" className="text-o-blue animated-underline">arXiv:2405.17398</Link> 
-                        </li>
-                        <li>
-                            BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers，ECCV 2022，2022年百強影響力人工智能論文。<Link href="https://arxiv.org/abs/2203.17270" target="_blank" className="text-o-blue animated-underline">arXiv:2203.17270</Link> 
-                        </li>
-                    </ul>
-                    <h4>
-                        具身智能 - Manipulation、Humanoid、靈巧手
-                    </h4>
-                    <ul className="ml-6 space-y-3 list-outside list-disc">
-                        <li>
-                            UniVLA: Learning to Act Anywhere with Task-centric Latent Actions，RSS 2025，機器人領域國際頂級會議。<Link href="https://arxiv.org/abs/2505.06111" target="_blank" className="text-o-blue animated-underline">arXiv:2406.00439</Link> 
-                        </li>
-                        <li>
-                            CLOVER (Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation)，NeurIPS 2024。<Link href="https://arxiv.org/abs/2409.09016" target="_blank" className="text-o-blue animated-underline">arXiv:2409.09016</Link> 
-                        </li>
-                        <li>
-                            RoboDual (Towards Synergistic, Generalized, and Efficient Dual-System for Robotic Manipulation)，團隊最新工作。<Link href="https://arxiv.org/abs/2410.08001" target="_blank" className="text-o-blue animated-underline">arXiv:2410.08001</Link> 
-                        </li>
-                        <li>
-                            硬件條件包括最新移動式雙臂機器人、通用人形機器人等。與眾多知名機器人公司（如智元機器人等）均有長期、穩定合作。
-                        </li>
-                    </ul>
-                </div>
-            </div>
 
-
-
-            <div className="w-full px-6 flex justify-center mt-12">
-                <div className="w-full max-w-7xl flex flex-col gap-6 leading-relaxed">
-                    <h3 className="text-xl">
-                        團隊資源
-                    </h3>
-                    <ul className="ml-6 space-y-3 list-outside list-disc">
-                        <li>
-                            豐富的頂級計算資源，先進的機器人硬件設備
-                        </li>
-                        <li>
-                            與世界頂級研究人員合作機會
-                        </li>
-                        <li>
-                            優秀的團隊工作氛圍
-                        </li>
-                        <li>
-                            學習能力強，能夠快速根據項目需要掌握其他技能
-                        </li>
-                    </ul>
                 </div>
             </div>
 
 
 
             <div className="w-full px-6 flex justify-center mt-24">
-                <div className="w-full max-w-7xl flex">
+                <div className="w-full max-w-5xl flex">
                     <h2 className="text-t1"> 
-                        <Link href='#apply' className="scroll-mt-32 group flex items-center" id='apply'>
-                            申請方式
-                            <span className="ml-6 hidden group-hover:inline-block size-6 text-foreground">
+                        <Link href="#perspective" className="scroll-mt-32 group flex items-center text-o-dark-blue font-bold" id="perspective">
+                            Perspective Students / FTEs
+                            <span className="ml-3 hidden group-hover:inline-block size-3 text-foreground">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
                                     <path d="M15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L12.5 6.06212" strokeWidth="2.5" strokeLinecap="round"/>
                                     <path d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373" strokeWidth="2.5" strokeLinecap="round"/>
@@ -358,12 +81,228 @@ export default function Home() {
 
 
 
-            <div className="w-full px-6 flex justify-center mt-12">
-                <div className="w-full max-w-7xl flex flex-col gap-6 leading-relaxed">
-                    <p>
-                        簡歷投遞請發送至 <Link className="text-o-blue animated-underline" href="mailto:recruit@opendrivelab.com">recruit@opendrivelab.com</Link>  
-                    </p>
+            <div className="w-full px-6 flex justify-center mt-6">
+                <div className="w-full max-w-5xl flex">
+                    <div className="flex flex-col gap-3">
+                        <b className="text-o-dark-blue bg-o-blue/20 py-3 px-6">
+                            We are taking in 2026 Internship. Newbies / undergraduates are welcome! Please refer to <Link href="/recruit" className="text-o-blue animated-underline">this page</Link> for more details.
+                        </b>
+                    </div>
                 </div>
+            </div>
+
+
+
+            <div className="w-full px-6 flex justify-center mt-6">
+                <div className="w-full max-w-5xl flex">
+                    <ul className="ml-6 list-outside list-disc space-y-3">
+                        <li>
+                            Post-doc / Ph.D. / MPhil: please send me an email. We usually hire <Link href="https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme" target="_blank" className="text-o-blue animated-underline">HKPFS</Link> or <Link href="https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hku_presidential_phd_scholar_programme" target="_blank" className="text-o-blue animated-underline">HKU Presidential Scholarship</Link> level candidate
+                        </li>
+                        <li>
+                            Research Assistant / Internship: please send request to <Link href="mailto:recruit@opendrivelab.com" target="_blank" className="text-o-blue animated-underline">recruit@opendrivelab.com</Link>
+                        </li>
+                        <li>
+                            For full-time employee (FTE) at HKU  / Shanghai Innovation Institute, we would be happy to recruit Research Scientist / Engineer / Staff in Embodied AI and Autonomous Driving!
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div className="w-full px-6 flex justify-center mt-24">
+                <div className="w-full max-w-5xl flex">
+                    <h2 className="text-t1"> 
+                        <Link href="#biography" className="scroll-mt-32 group flex items-center text-o-dark-blue font-bold" id="biography">
+                            Biography
+                            <span className="ml-3 hidden group-hover:inline-block size-3 text-foreground">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L12.5 6.06212" strokeWidth="2.5" strokeLinecap="round"/>
+                                    <path d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373" strokeWidth="2.5" strokeLinecap="round"/>
+                                </svg>
+                            </span>
+                        </Link>
+                    </h2>
+                </div>
+            </div>
+
+
+
+            <div className="w-full px-6 flex justify-center mt-6">
+                <div className="w-full max-w-5xl flex flex-col gap-6">
+                    <p>
+                        Hongyang Li is an Assistant Professor at Musketeers Foundation Institute of Data Science, University of Hong Kong and has led OpenDriveLab (<Link href="https://opendrivelab.com/" target="_blank" className="text-o-blue animated-underline">opendrivelab.com</Link>) since 2021. His research focus is on autonomous driving and embodied AI. He led the end-to-end autonomous driving project, UniAD and won the IEEE CVPR 2023 Best Paper Award. UniAD has a tremendous impact both in academia and industry, including the recent rollout to customers by Tesla in FSD V12. He created the first large-scale real robot ecosystem, AgiBot World, that systematically investigated the scaling law principles for robotic manipulation. He proposed the bird's-eye-view perception work, BEVFormer, that won Top 100 AI Papers in 2022. He served as Area Chair for CVPR, NeurIPS (including 2023 Notable AC), ICLR, ICCV, ICML, RSS, referee for Nature Communications, Guest Editor at Automotive Innovations. He is the Working Group Chair for IEEE Standards P3474 under Vehicular Technology Society. He is the Senior Member of IEEE, CCF and CSIG. He is the recipient of China AI Wu Wen Jun Early Career Award 2024.
+                    </p>
+                    <details className="group inline-block">
+                        <summary className="inline-block text-o-blue animated-underline hover:cursor-pointer select-none group-open:bg-foreground/6">
+                            中文简介
+                        </summary>
+                        <p className="bg-foreground/6 pt-2 pb-2">
+                            李弘扬，香港大学数据科学研究院助理教授，OpenDriveLab团队（<Link href="https://opendrivelab.com/" target="_blank" className="text-o-blue animated-underline">opendrivelab.com</Link>）联合创始人。研究方向为端到端智能系统在机器人、自动驾驶的应用。他主导的端到端自动驾驶方案UniAD于2022年提出，获IEEE CVPR 2023最佳论文奖。UniAD等系列工作产生了明显的社会经济效益，包括特斯拉于2023年推出的端到端FSD。他构造的超大规模具身智能训练场AgiBot World，是业界首个百万真机、千万仿真数据集，系统研究具身Scaling Law方法论。他提出的俯视图感知方法BEVFormer，获2022年百强影响力人工智能论文榜单，成为业界广泛使用的纯视觉检测基准。他多次担任CVPR、NeurIPS、ICLR、ICCV、ICML、RSS等国际会议领域主席（AC），其中获得NeurIPS 2023 Notable AC。他是《自然·通讯》的审稿人、期刊《Automotive Innovations》客座编委。IEEE、CCF、CSIG高级会员、IEEE汽车委员会自动驾驶国际标准工作组组长。荣获2024年中国吴文俊人工智能青年科技奖、2023年上海市东方英才计划领军项目。
+                        </p>
+                    </details>
+                </div>
+            </div>
+
+
+
+            <div className="w-full px-6 flex justify-center mt-24">
+                <div className="w-full max-w-5xl flex">
+                    <h2 className="text-t1"> 
+                        <Link href="#research" className="scroll-mt-32 group flex items-center text-o-dark-blue font-bold" id="research">
+                            Research
+                            <span className="ml-3 hidden group-hover:inline-block size-3 text-foreground">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L12.5 6.06212" strokeWidth="2.5" strokeLinecap="round"/>
+                                    <path d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373" strokeWidth="2.5" strokeLinecap="round"/>
+                                </svg>
+                            </span>
+                        </Link>
+                    </h2>
+                </div>
+            </div>
+
+
+
+            <div className="w-full px-6 flex justify-center mt-6">
+                <div className="w-full max-w-5xl flex">
+                    <ul className="ml-6 list-outside list-disc space-y-3">
+                        <li>
+                            Focus:  AI for Robotics, Autonomous Driving, 3D Vision, Foundation Models
+                        </li>
+                        <li>
+                            <Link href="https://scholar.google.com/citations?user=Hfrih1EAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" className="text-o-blue animated-underline">Google Scholar</Link>
+                        </li>
+                        <li>
+                            <Link href="https://hub.hku.hk/cris/rp/rp03401" target="_blank" className="text-o-blue animated-underline">HKU Scholars Hub</Link>
+                        </li>
+                        <li>
+                            <Link href="https://opendrivelab.com/publications/" target="_blank" className="text-o-blue animated-underline">Publications</Link> from OpenDriveLab
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div className="w-full px-6 flex justify-center mt-24">
+                <div className="w-full max-w-5xl flex">
+                    <h2 className="text-t1"> 
+                        <Link href="#teaching" className="scroll-mt-32 group flex items-center text-o-dark-blue font-bold" id="teaching">
+                            Teaching
+                            <span className="ml-3 hidden group-hover:inline-block size-3 text-foreground">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L12.5 6.06212" strokeWidth="2.5" strokeLinecap="round"/>
+                                    <path d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373" strokeWidth="2.5" strokeLinecap="round"/>
+                                </svg>
+                            </span>
+                        </Link>
+                    </h2>
+                </div>
+            </div>
+
+
+
+            <div className="w-full px-6 flex justify-center mt-6">
+                <div className="w-full max-w-5xl flex">
+                    <ul className="ml-6 list-outside list-disc space-y-3">
+                        <li>
+                            IDSS2501: Embodied AI 101
+                            <br></br>
+                            Time: Jul. 22 - Aug. 1, 2025,
+                            <br></br>
+                            Resource: <Link href="https://datascience.hku.hk/2024/12/hku-summer-institute-2025-idss-2501-welcomes-applications-from-undergraduates/" target="_blank" className="text-o-blue animated-underline">homepage</Link>
+                        </li>
+                        <li>
+                            CCAI9025: AI-driven Robotics for Humankind
+                            <br></br>
+                            Time: Wed. 13:00-14:50, Sep. 01 - Nov 29, Fall 2025
+                            <br></br>
+                            Venue: Wang Gungwu Lecture Hall(WLGH), Graduate House
+                            <br></br>
+                            For: Undergraduate Year 1 or 2, to all department
+                        </li>
+                        <li>
+                            DATA8017: Fundamentals of Autonomous Intelligent Systems
+                            <br></br>
+                            Time: Fri. 14:00-16:50, Sep. 01 - Nov 29, Fall 2025
+                            <br></br>
+                            Venue: IDS P603 Seminar Room, Graduate House 
+                            <br></br>
+                            For: RPg-level (MPhil or Ph.D.)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div className="w-full px-6 flex justify-center mt-24">
+                <div className="w-full max-w-5xl flex">
+                    <h2 className="text-t1"> 
+                        <Link href="#talk" className="scroll-mt-32 group flex items-center text-o-dark-blue font-bold" id="talk">
+                            Talk
+                            <span className="ml-3 hidden group-hover:inline-block size-3 text-foreground">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L12.5 6.06212" strokeWidth="2.5" strokeLinecap="round"/>
+                                    <path d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373" strokeWidth="2.5" strokeLinecap="round"/>
+                                </svg>
+                            </span>
+                        </Link>
+                    </h2>
+                </div>
+            </div>
+
+
+
+            <div className="w-full px-6 flex justify-center mt-6">
+                <ul className="px-6 list-outside list-disc w-full max-w-5xl grid gap-y-6 gap-x-12 grid-cols-1 lg:grid-cols-2">
+
+
+
+                    <li>
+                        <p>
+                            Talk on "What are Good (Pre-training) Representations for Robotic Manipulation?", 
+                            TU Delft, Netherlands,
+                            July 2024,
+                            in conjunction with RSS 2024. <Link href="/content/TUDelft_Talk_MPI.pdf" target="_blank" className="text-o-blue animated-underline">slides</Link>
+                        </p>
+                        <div className="max-w-xl">
+                            <AspectRatio ratio={16/9} className="rounded-sm overflow-hidden bg-gradient-landing mt-3">
+                                <iframe
+                                    className="w-full h-full"
+                                    src="https://www.youtube.com/embed/reNxFagbDoU?si=6DYDlydCF2X_NsaC"
+                                    title="YouTube video player"
+                                    allowFullScreen
+                                />
+                            </AspectRatio>
+                        </div>
+                    </li>
+
+
+
+                    <li>
+                        <p>
+                            Talk on "Could Foundation Models really resolve End-to-end Autonomy?",
+                            Tutorial on <Link href="https://wayve.ai/cvpr-e2ead-tutorial/" target="_blank" className="text-o-blue animated-underline">End-to-End Autonomy: A New Era of Self-Driving</Link>, 
+                            CVPR 2024, Seattle, USA. <Link href="/content/Wayve_Tutorial_CVPR2024_Hongyang.pdf" target="_blank" className="text-o-blue animated-underline">slides</Link>
+                        </p>
+                        <div className="max-w-xl">
+                            <AspectRatio ratio={16/9} className="rounded-sm overflow-hidden bg-gradient-landing mt-3">
+                                <iframe
+                                    className="w-full h-full"
+                                    src="https://www.youtube.com/embed/8XOpjf6jAxg?si=cICeweE2s3TpQIzC&amp;start=2677"
+                                    title="YouTube video player"
+                                    allowFullScreen
+                                />
+                            </AspectRatio>
+                        </div>
+                    </li>
+
+
+
+                </ul>
             </div>
 
 

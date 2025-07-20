@@ -35,29 +35,9 @@ export function Header() {
 
 
 
-            <div className="fixed flex flex-row gap-3 p-6 z-20 flex-wrap w-full justify-between md:w-fit md:justify-start">
-
-
-
-                <Button asChild className="bg-background text-foreground hover:bg-white group">
-                    <Link href="/" className="select-none">
-                        <Image
-                            src="/content/hku-64.png"
-                            alt="HKU"
-                            width={24}
-                            height={24}
-                            className="group-hover:scale-125 transition delay-100 duration-200"
-                        />
-                    </Link>
-                </Button>
-
-
-
+            {/* <div className="fixed flex flex-row gap-3 p-6 z-20 flex-wrap w-full justify-between md:w-fit md:justify-start">
                 <NavigatorTrigger />
-
-
-
-            </div>
+            </div> */}
 
 
 

@@ -119,6 +119,7 @@ function SidebarProvider({
   const state = open ? "expanded" : "collapsed"
 
   const pathname = usePathname()
+
   const content_page = pathname.toLowerCase() in NavigatorPage ? NavigatorPage[pathname.toLowerCase()] : null
 
 

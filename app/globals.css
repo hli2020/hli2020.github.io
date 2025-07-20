@@ -170,10 +170,10 @@
 
 /* font */
 .text-t0 {
-    @apply text-5xl xl:text-6xl 3xl:text-7xl;
+    @apply text-3xl xl:text-4xl 3xl:text-5xl;
 }
 .text-t1 {
-    @apply text-3xl xl:text-4xl 3xl:text-5xl;
+    @apply text-2xl 3xl:text-3xl;
 }
 
 
