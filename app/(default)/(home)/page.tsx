@@ -208,33 +208,29 @@ export default function Home() {
                 <div className="w-full max-w-5xl flex">
                     <ul className="ml-6 list-outside list-disc space-y-3">
                         <li className="leading-loose">
-                            IDSS2501: Embodied AI 101
+                            IDSS2501: <Link href="https://www.summerinstitute.hku.hk/programmes/detail/idss2501-2025" target="_blank" className="text-o-blue animated-underline">Embodied AI 101</Link>
                             <br></br>
-                            Time: Jul. 22 - Aug. 1, 2025,
+                            Summer Semester 2025
                             <br></br>
-                            Resource: <Link href="https://datascience.hku.hk/2024/12/hku-summer-institute-2025-idss-2501-welcomes-applications-from-undergraduates/" target="_blank" className="text-o-blue animated-underline">homepage</Link>
+                            Venue: LE2, Main Campus
                         </li>
                         <li className="leading-loose">
                             CCAI9025: AI-driven Robotics for Humankind
                             <br></br>
-                            Time: Wed. 13:00-14:50, Sep. 01 - Nov 29, Fall 2025
+                            Moodle, <Link href="https://commoncore.hku.hk/ccai9025/" target="_blank" className="text-o-blue animated-underline">CC website</Link>
                             <br></br>
-                            Venue: Wang Gungwu Lecture Hall(WLGH), Graduate House
+                            Fall 2025
                             <br></br>
-                            For undergraduate year 1 or 2 to all department
-                            <br></br>
-                            Website to be released.
+                            Venue: WLGH, Graduate House
                         </li>
                         <li className="leading-loose">
                             DATA8017: Fundamentals of Autonomous Intelligent Systems
                             <br></br>
-                            Time: Fri. 14:00-16:50, Sep. 01 - Nov 29, Fall 2025
+                            Piazza
                             <br></br>
-                            Venue: IDS P603 Seminar Room, Graduate House 
+                            Fall 2025 
                             <br></br>
-                            For MPhil or Ph.D.
-                            <br></br>
-                            Website to be released.
+                            Venue: IDS P603 Seminar Room, Graduate House
                         </li>
                     </ul>
                 </div>
