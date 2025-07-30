@@ -209,28 +209,26 @@ export default function Home() {
                     <ul className="ml-6 list-outside list-disc space-y-3">
                         <li className="leading-loose">
                             IDSS2501: <Link href="https://www.summerinstitute.hku.hk/programmes/detail/idss2501-2025" target="_blank" className="text-o-blue animated-underline">Embodied AI 101</Link>
-                            <br></br>
-                            Summer Semester 2025
-                            <br></br>
-                            Venue: LE2, Main Campus
+                            <ul className="ml-6 list-outside list-disc">
+                                <li className="leading-loose">Summer Semester 2025</li>
+                                <li className="leading-loose">Venue: LE2, Main Campus</li>
+                            </ul>
                         </li>
                         <li className="leading-loose">
                             CCAI9025: AI-driven Robotics for Humankind
-                            <br></br>
-                            Moodle, <Link href="https://commoncore.hku.hk/ccai9025/" target="_blank" className="text-o-blue animated-underline">CC website</Link>
-                            <br></br>
-                            Fall 2025
-                            <br></br>
-                            Venue: WLGH, Graduate House
+                            <ul className="ml-6 list-outside list-disc">
+                                <li className="leading-loose">Moodle, <Link href="https://commoncore.hku.hk/ccai9025/" target="_blank" className="text-o-blue animated-underline">CC website</Link></li>
+                                <li className="leading-loose">Fall 2025</li>
+                                <li className="leading-loose">Venue: WLGH, Graduate House</li>
+                            </ul>
                         </li>
                         <li className="leading-loose">
                             DATA8017: Fundamentals of Autonomous Intelligent Systems
-                            <br></br>
-                            Piazza
-                            <br></br>
-                            Fall 2025 
-                            <br></br>
-                            Venue: IDS P603 Seminar Room, Graduate House
+                            <ul className="ml-6 list-outside list-disc">
+                                <li className="leading-loose">Piazza</li>
+                                <li className="leading-loose">Fall 2025 </li>
+                                <li className="leading-loose">Venue: IDS P603 Seminar Room, Graduate House</li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
