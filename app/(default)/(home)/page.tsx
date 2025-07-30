@@ -209,23 +209,24 @@ export default function Home() {
                     <ul className="ml-6 list-outside list-disc space-y-3">
                         <li className="leading-loose">
                             IDSS2501: <Link href="https://www.summerinstitute.hku.hk/programmes/detail/idss2501-2025" target="_blank" className="text-o-blue animated-underline">Embodied AI 101</Link>
-                            <ul className="ml-6 list-outside list-disc">
+                            <ul className="ml-6 list-outside" style={{listStyleType:"circle"}}>
+                                <li className="leading-loose"><Link href="https://hkusimoodle.hku.hk/course/view.php?id=172" target="_blank" className="text-o-blue animated-underline">Moodle</Link></li>
                                 <li className="leading-loose">Summer Semester 2025</li>
                                 <li className="leading-loose">Venue: LE2, Main Campus</li>
                             </ul>
                         </li>
                         <li className="leading-loose">
-                            CCAI9025: AI-driven Robotics for Humankind
-                            <ul className="ml-6 list-outside list-disc">
-                                <li className="leading-loose">Moodle, <Link href="https://commoncore.hku.hk/ccai9025/" target="_blank" className="text-o-blue animated-underline">CC website</Link></li>
+                            CCAI9025: <Link href="https://commoncore.hku.hk/ccai9025/" target="_blank" className="text-o-blue animated-underline">AI-driven Robotics for Humankind</Link>
+                            <ul className="ml-6 list-outside" style={{listStyleType:"circle"}}>
+                                <li className="leading-loose">Moodle</li>
                                 <li className="leading-loose">Fall 2025</li>
                                 <li className="leading-loose">Venue: WLGH, Graduate House</li>
                             </ul>
                         </li>
                         <li className="leading-loose">
-                            DATA8017: Fundamentals of Autonomous Intelligent Systems
-                            <ul className="ml-6 list-outside list-disc">
-                                <li className="leading-loose">Piazza</li>
+                            DATA8017: <Link href="https://datascience.hku.hk/study/research-postgraduate/data8017-quantitative-neuroscience-and-ai-modeling-inference-and-shared-principles-computation/" target="_blank" className="text-o-blue animated-underline">Fundamentals of Autonomous Intelligent Systems</Link>
+                            <ul className="ml-6 list-outside" style={{listStyleType:"circle"}}>
+                                <li className="leading-loose"><Link href="https://moodle.hku.hk/course/view.php?id=128102" target="_blank" className="text-o-blue animated-underline">Moodle</Link></li>
                                 <li className="leading-loose">Fall 2025 </li>
                                 <li className="leading-loose">Venue: IDS P603 Seminar Room, Graduate House</li>
                             </ul>
