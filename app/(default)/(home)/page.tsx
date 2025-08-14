@@ -218,7 +218,7 @@ export default function Home() {
                         <li className="leading-loose">
                             CCAI9025: <Link href="https://commoncore.hku.hk/ccai9025/" target="_blank" className="text-o-blue animated-underline">AI-driven Robotics for Humankind</Link>
                             <ul className="ml-6 list-outside" style={{listStyleType:"circle"}}>
-                                <li className="leading-loose">Moodle</li>
+                                <li className="leading-loose"><Link href="https://moodle.hku.hk/course/view.php?id=127252" target="_blank" className="text-o-blue animated-underline">Moodle</Link></li>
                                 <li className="leading-loose">Fall 2025</li>
                                 <li className="leading-loose">Venue: WLGH, Graduate House</li>
                             </ul>
