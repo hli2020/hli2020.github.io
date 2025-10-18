@@ -78,7 +78,7 @@ export default function Home() {
                             <li className="leading-relaxed">
                                 <b>Apply for PGS:</b>
                                 <br></br>
-                                Yes
+                                Yes. If applying SLAI, then No.
                             </li>
                             <li className="leading-relaxed">
                                 <b>Apply for HKPFS:</b>
