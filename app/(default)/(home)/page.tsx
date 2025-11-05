@@ -29,7 +29,7 @@ export default function Home() {
                             </h1>
 
                             <p>
-                                Assistant Professor, Institute of Data Science, The University of Hong Kong 
+                                Assistant Professor, Institute of Data Science, The University of Hong Kong (HKU)
                             </p>
 
                             <ul className="ml-6 list-outside list-disc space-y-3">
@@ -41,6 +41,9 @@ export default function Home() {
                                 </li>
                                 <li className="leading-loose">
                                     Office: Room P307B, Graduate House, 3 University Drive, HKU
+                                </li>
+                                <li className="leading-loose">
+                                    Lab location: HW 335 and GH P501
                                 </li>
                             </ul>
 
@@ -103,7 +106,7 @@ export default function Home() {
                             Research Assistant / Internship: please send request to <Link href="mailto:recruit@opendrivelab.com" target="_blank" className="text-o-blue animated-underline">recruit@opendrivelab.com</Link>
                         </li>
                         <li className="leading-loose">
-                            For full-time employee (FTE) at HKU  / Shanghai Innovation Institute, we would be happy to recruit Research Scientist / Engineer / Staff in Embodied AI and Autonomous Driving!
+                            For full-time employee (FTE) at HKU (HK and Shanghai both) / Shenzhen Loop Area Institute (SLAI), we would be happy to recruit Research Scientist / Engineer / Staff in Embodied AI and Autonomous Driving!
                         </li>
                     </ul>
                 </div>
