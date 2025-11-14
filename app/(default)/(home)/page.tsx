@@ -108,6 +108,9 @@ export default function Home() {
                         <li className="leading-loose">
                             For full-time employee (FTE) at HKU (HK and Shanghai both) / Shenzhen Loop Area Institute (SLAI), we would be happy to recruit Research Scientist / Engineer / Staff in Embodied AI and Autonomous Driving!
                         </li>
+                        <li className="leading-loose">
+                            For recruitment in Shanghai Innovation Institute (SII), please refer to the <Link href="https://www.sii.edu.cn/" target="_blank" className="text-o-blue animated-underline">official website</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
