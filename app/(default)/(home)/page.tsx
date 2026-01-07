@@ -29,12 +29,12 @@ export default function Home() {
                             </h1>
 
                             <p>
-                                Assistant Professor, Institute of Data Science, The University of Hong Kong (HKU)
+                                Assistant Professor, School of Computing and Data Science, The University of Hong Kong (HKU)
                             </p>
 
                             <ul className="ml-6 list-outside list-disc space-y-3">
                                 <li className="leading-loose">
-                                    Academic page: <Link href="https://datascience.hku.hk/people/hongyang-li/" target="_blank" className="text-o-blue animated-underline break-words">https://datascience.hku.hk/people/hongyang-li/</Link>
+                                    Academic page at CDS (TBD) and <Link href="https://datascience.hku.hk/people/hongyang-li/" target="_blank" className="text-o-blue animated-underline break-words">IDS</Link>
                                 </li>
                                 <li className="leading-loose">
                                     Email: <Link href="mailto:hongyang@hku.hk" className="text-o-blue animated-underline">hongyang@hku.hk</Link> or <Link href="mailto:hy@opendrivelab.com" className="text-o-blue animated-underline">hy@opendrivelab.com</Link>
@@ -184,7 +184,7 @@ export default function Home() {
                             <Link href="https://hub.hku.hk/cris/rp/rp03401" target="_blank" className="text-o-blue animated-underline">HKU Scholars Hub</Link>
                         </li>
                         <li className="leading-loose">
-                            <Link href="https://opendrivelab.com/publications/" target="_blank" className="text-o-blue animated-underline">Publications</Link> from OpenDriveLab
+                            <Link href="https://opendrivelab.com/publications/" target="_blank" className="text-o-blue animated-underline">Publications</Link> at OpenDriveLab
                         </li>
                     </ul>
                 </div>
@@ -214,17 +214,12 @@ export default function Home() {
                 <div className="w-full max-w-5xl flex">
                     <ul className="ml-6 list-outside list-disc space-y-3">
                         <li className="leading-loose">
-                            IDSS2501: <Link href="https://www.summerinstitute.hku.hk/programmes/detail/idss2501-2025" target="_blank" className="text-o-blue animated-underline">Embodied AI 101</Link>
-                            <ul className="ml-6 list-outside" style={{listStyleType:"circle"}}>
-                                <li className="leading-loose"><Link href="https://hkusimoodle.hku.hk/course/view.php?id=172" target="_blank" className="text-o-blue animated-underline">Moodle</Link></li>
-                                <li className="leading-loose">Summer Semester 2025</li>
-                                <li className="leading-loose">Venue: LE2, Main Campus</li>
-                            </ul>
-                        </li>
-                        <li className="leading-loose">
                             CCAI9025: <Link href="https://commoncore.hku.hk/ccai9025/" target="_blank" className="text-o-blue animated-underline">AI-driven Robotics for Humankind</Link>
                             <ul className="ml-6 list-outside" style={{listStyleType:"circle"}}>
-                                <li className="leading-loose"><Link href="https://moodle.hku.hk/course/view.php?id=127252" target="_blank" className="text-o-blue animated-underline">Moodle</Link></li>
+                                <li className="leading-loose">
+                                    <Link href="https://moodle.hku.hk/course/view.php?id=127252" target="_blank" className="text-o-blue animated-underline">Moodle</Link>,&nbsp;
+                                    <Link href="https://commoncore.hku.hk/2025/11/21/ccai9025-field-trips/" target="_blank" className="text-o-blue animated-underline">Highlight</Link>
+                                </li>
                                 <li className="leading-loose">Fall 2025</li>
                                 <li className="leading-loose">Venue: WLGH, Graduate House</li>
                             </ul>
@@ -235,6 +230,14 @@ export default function Home() {
                                 <li className="leading-loose"><Link href="https://moodle.hku.hk/course/view.php?id=128102" target="_blank" className="text-o-blue animated-underline">Moodle</Link></li>
                                 <li className="leading-loose">Fall 2025 </li>
                                 <li className="leading-loose">Venue: IDS P603 Seminar Room, Graduate House</li>
+                            </ul>
+                        </li>
+                        <li className="leading-loose">
+                            IDSS2501: <Link href="https://www.summerinstitute.hku.hk/programmes/detail/idss2501-2025" target="_blank" className="text-o-blue animated-underline">Embodied AI 101</Link>
+                            <ul className="ml-6 list-outside" style={{listStyleType:"circle"}}>
+                                <li className="leading-loose"><Link href="https://hkusimoodle.hku.hk/course/view.php?id=172" target="_blank" className="text-o-blue animated-underline">Moodle</Link></li>
+                                <li className="leading-loose">Summer Semester 2025</li>
+                                <li className="leading-loose">Venue: LE2, Main Campus</li>
                             </ul>
                         </li>
                     </ul>
@@ -265,13 +268,33 @@ export default function Home() {
                 <ul className="pl-6 list-outside list-disc w-full max-w-5xl grid gap-y-6 gap-x-12 grid-cols-1 lg:grid-cols-2">
 
 
+                    <li className="leading-loose">
+                        <p className="leading-relaxed">
+                            Talk on "Towards Generalizable and Intelligent System for Robotic Manipulation", 
+                            New York University, USA,
+                            September 2025.&nbsp;
+                            <Link href="https://www.youtube.com/watch?v=nNZQ8-7fEyM&list=PLhwo5ntex8iY9xhpSwWas451NgVuqBE7U" target="_blank" className="text-o-blue animated-underline">YouTube</Link>
+                        </p>
+                        <div className="max-w-xl">
+                            <AspectRatio ratio={16/9} className="rounded-sm overflow-hidden bg-gradient-landing mt-3">
+                                <iframe
+                                    className="w-full h-full"
+                                    src="https://www.youtube.com/embed/nNZQ8-7fEyM?si=3iRCIAI0Zo7WMa2j"
+                                    title="YouTube video player"
+                                    allowFullScreen
+                                />
+                            </AspectRatio>
+                        </div>
+                    </li>
+
 
                     <li className="leading-loose">
                         <p className="leading-relaxed">
                             Talk on "What are Good (Pre-training) Representations for Robotic Manipulation?", 
                             TU Delft, Netherlands,
                             July 2024,
-                            in conjunction with RSS 2024. <Link href="https://youtu.be/reNxFagbDoU?si=DtDuuV72E0iiUU-a" target="_blank" className="text-o-blue animated-underline">YouTube</Link> / <Link href="/content/TUDelft_Talk_MPI.pdf" target="_blank" className="text-o-blue animated-underline">Slides</Link>
+                            in conjunction with RSS 2024.&nbsp;
+                            <Link href="https://youtu.be/reNxFagbDoU?si=DtDuuV72E0iiUU-a" target="_blank" className="text-o-blue animated-underline">YouTube</Link> / <Link href="/content/TUDelft_Talk_MPI.pdf" target="_blank" className="text-o-blue animated-underline">Slides</Link>
                         </p>
                         <div className="max-w-xl">
                             <AspectRatio ratio={16/9} className="rounded-sm overflow-hidden bg-gradient-landing mt-3">
@@ -291,7 +314,8 @@ export default function Home() {
                         <p className="leading-relaxed">
                             Talk on "Could Foundation Models really resolve End-to-end Autonomy?",
                             Tutorial on <Link href="https://wayve.ai/cvpr-e2ead-tutorial/" target="_blank" className="text-o-blue animated-underline">End-to-End Autonomy: A New Era of Self-Driving</Link>, 
-                            CVPR 2024, Seattle, USA. <Link href="https://youtu.be/8XOpjf6jAxg?si=FbETOTzYyNWwA31G&t=2677" target="_blank" className="text-o-blue animated-underline">YouTube</Link> / <Link href="/content/Wayve_Tutorial_CVPR2024_Hongyang.pdf" target="_blank" className="text-o-blue animated-underline">Slides</Link>
+                            CVPR 2024, Seattle, USA.&nbsp;
+                            <Link href="https://youtu.be/8XOpjf6jAxg?si=FbETOTzYyNWwA31G&t=2677" target="_blank" className="text-o-blue animated-underline">YouTube</Link> / <Link href="/content/Wayve_Tutorial_CVPR2024_Hongyang.pdf" target="_blank" className="text-o-blue animated-underline">Slides</Link>
                         </p>
                         <div className="max-w-xl">
                             <AspectRatio ratio={16/9} className="rounded-sm overflow-hidden bg-gradient-landing mt-3">
