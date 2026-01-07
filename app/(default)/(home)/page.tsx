@@ -218,7 +218,8 @@ export default function Home() {
                             <ul className="ml-6 list-outside" style={{listStyleType:"circle"}}>
                                 <li className="leading-loose">
                                     <Link href="https://moodle.hku.hk/course/view.php?id=127252" target="_blank" className="text-o-blue animated-underline">Moodle</Link>,&nbsp;
-                                    <Link href="https://commoncore.hku.hk/2025/11/21/ccai9025-field-trips/" target="_blank" className="text-o-blue animated-underline">Highlight</Link>
+                                    <Link href="https://commoncore.hku.hk/2025/11/21/ccai9025-field-trips/" target="_blank" className="text-o-blue animated-underline">Highlight</Link>,&nbsp;
+                                    <Link href="https://x.com/hkudatascience/status/1979209484359876982" target="_blank" className="text-o-blue animated-underline">Field Trip</Link>
                                 </li>
                                 <li className="leading-loose">Fall 2025</li>
                                 <li className="leading-loose">Venue: WLGH, Graduate House</li>
