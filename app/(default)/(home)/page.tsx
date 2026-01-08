@@ -18,6 +18,7 @@ export default function Home() {
 
 
 
+
             <div className="w-full px-6 flex justify-center mt-24 lg:mt-36">
                 <div className="w-full max-w-5xl flex flex-col gap-6">
                     <div className="flex flex-col-reverse lg:flex-row justify-between gap-10">
