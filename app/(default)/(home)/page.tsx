@@ -34,7 +34,7 @@ export default function Home() {
 
                             <ul className="ml-6 list-outside list-disc space-y-3">
                                 <li className="leading-loose">
-                                    Academic page at CDS (TBD) and <Link href="https://datascience.hku.hk/people/hongyang-li/" target="_blank" className="text-o-blue animated-underline break-words">IDS</Link>
+                                    Academic page at <Link href="https://ai.hku.hk/index.php/people/academic-staff/hongyang" target="_blank" className="text-o-blue animated-underline break-words">CDS</Link> and <Link href="https://datascience.hku.hk/people/hongyang-li/" target="_blank" className="text-o-blue animated-underline break-words">IDS</Link>
                                 </li>
                                 <li className="leading-loose">
                                     Email: <Link href="mailto:hongyang@hku.hk" className="text-o-blue animated-underline">hongyang@hku.hk</Link> or <Link href="mailto:hy@opendrivelab.com" className="text-o-blue animated-underline">hy@opendrivelab.com</Link>
