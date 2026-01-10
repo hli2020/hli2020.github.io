@@ -30,12 +30,12 @@ export default function Home() {
                             </h1>
 
                             <p>
-                                Assistant Professor, School of Computing and Data Science, The University of Hong Kong (HKU)
+                                Assistant Professor, School of Computing and Data Science (CDS) and Institute of Data Science (IDS), The University of Hong Kong (HKU)
                             </p>
 
                             <ul className="ml-6 list-outside list-disc space-y-3">
                                 <li className="leading-loose">
-                                    Academic page at <Link href="https://ai.hku.hk/index.php/people/academic-staff/hongyang" target="_blank" className="text-o-blue animated-underline break-words">CDS</Link> and <Link href="https://datascience.hku.hk/people/hongyang-li/" target="_blank" className="text-o-blue animated-underline break-words">IDS</Link>
+                                    Academic page at <Link href="https://www.cs.hku.hk/index.php/people/academic-staff/hongyang" target="_blank" className="text-o-blue animated-underline break-words">CDS</Link> and <Link href="https://datascience.hku.hk/people/hongyang-li/" target="_blank" className="text-o-blue animated-underline break-words">IDS</Link>
                                 </li>
                                 <li className="leading-loose">
                                     Email: <Link href="mailto:hongyang@hku.hk" className="text-o-blue animated-underline">hongyang@hku.hk</Link> or <Link href="mailto:hy@opendrivelab.com" className="text-o-blue animated-underline">hy@opendrivelab.com</Link>
@@ -220,7 +220,7 @@ export default function Home() {
                                 <li className="leading-loose">
                                     <Link href="https://moodle.hku.hk/course/view.php?id=127252" target="_blank" className="text-o-blue animated-underline">Moodle</Link>,&nbsp;
                                     <Link href="https://commoncore.hku.hk/2025/11/21/ccai9025-field-trips/" target="_blank" className="text-o-blue animated-underline">Highlight</Link>,&nbsp;
-                                    <Link href="https://x.com/hkudatascience/status/1979209484359876982" target="_blank" className="text-o-blue animated-underline">Field Trip</Link>
+                                    <Link href="https://www.youtube.com/watch?v=PTJjb47qYgw" target="_blank" className="text-o-blue animated-underline">Field Trip</Link>
                                 </li>
                                 <li className="leading-loose">Fall 2025</li>
                                 <li className="leading-loose">Venue: WLGH, Graduate House</li>
@@ -290,6 +290,28 @@ export default function Home() {
                     </li>
 
 
+
+                    <li className="leading-loose">
+                        <p className="leading-relaxed">
+                            Talk on "End-to-end Autonomous Driving: Past, Current and Onwards", 
+                            Workshop on <Link href="https://cvpr2025.wad.vision/" target="_blank" className="text-o-blue animated-underline">Autonomous Driving</Link>, 
+                            CVPR 2025, Nashville, USA.&nbsp;
+                            <Link href="https://www.youtube.com/watch?v=0F96P1OE3hI" target="_blank" className="text-o-blue animated-underline">YouTube</Link>
+                        </p>
+                        <div className="max-w-xl">
+                            <AspectRatio ratio={16/9} className="rounded-sm overflow-hidden bg-gradient-landing mt-3">
+                                <iframe
+                                    className="w-full h-full"
+                                    src="https://www.youtube.com/embed/0F96P1OE3hI?si=uf3U9jHylLRJKc1D"
+                                    title="YouTube video player"
+                                    allowFullScreen
+                                />
+                            </AspectRatio>
+                        </div>
+                    </li>
+
+
+
                     <li className="leading-loose">
                         <p className="leading-relaxed">
                             Talk on "What are Good (Pre-training) Representations for Robotic Manipulation?", 
@@ -317,13 +339,13 @@ export default function Home() {
                             Talk on "Could Foundation Models really resolve End-to-end Autonomy?",
                             Tutorial on <Link href="https://wayve.ai/cvpr-e2ead-tutorial/" target="_blank" className="text-o-blue animated-underline">End-to-End Autonomy: A New Era of Self-Driving</Link>, 
                             CVPR 2024, Seattle, USA.&nbsp;
-                            <Link href="https://youtu.be/8XOpjf6jAxg?si=FbETOTzYyNWwA31G&t=2677" target="_blank" className="text-o-blue animated-underline">YouTube</Link> / <Link href="/content/Wayve_Tutorial_CVPR2024_Hongyang.pdf" target="_blank" className="text-o-blue animated-underline">Slides</Link>
+                            <Link href="https://www.youtube.com/watch?v=Pm4_yF9325U" target="_blank" className="text-o-blue animated-underline">YouTube</Link> / <Link href="/content/Wayve_Tutorial_CVPR2024_Hongyang.pdf" target="_blank" className="text-o-blue animated-underline">Slides</Link>
                         </p>
                         <div className="max-w-xl">
                             <AspectRatio ratio={16/9} className="rounded-sm overflow-hidden bg-gradient-landing mt-3">
                                 <iframe
                                     className="w-full h-full"
-                                    src="https://www.youtube.com/embed/8XOpjf6jAxg?si=cICeweE2s3TpQIzC&amp;start=2677"
+                                    src="https://www.youtube.com/embed/Pm4_yF9325U?si=9cgTZtsRBBTWqOI9"
                                     title="YouTube video player"
                                     allowFullScreen
                                 />
