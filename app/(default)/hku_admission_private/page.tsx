@@ -50,16 +50,46 @@ export default function Home() {
                                 <br></br>
                                 Please refer to the timeline here: Application Period <Link href="https://gradsch.hku.hk/prospective_students/application/application_period" target="_blank" className="text-o-blue animated-underline break-words">https://gradsch.hku.hk/prospective_students/application/application_period</Link>
                             </li>
+
+                            
+                            
                             <li className="leading-relaxed">
-                                <b>Faculty:</b>
-                                <br></br>
-                                Interdisciplinary Area [VF01]
+                                <b>Please select one based on your application path.</b>
                             </li>
-                            <li className="leading-relaxed">
-                                <b>Department:</b>
-                                <br></br>
-                                Data Science [VD002]
-                            </li>
+                            
+                            <ul className="w-fit ml-6 space-y-3 list-outside list-disc border-2 border-o-dark-blue px-10 py-2">
+                                <li className="leading-relaxed">
+                                    <b>Faculty:</b>
+                                    <br></br>
+                                    SCDS (Faculties of Engineering & Science) [L]
+                                </li>
+                                <li className="leading-relaxed">
+                                    <b>Department:</b>
+                                    <br></br>
+                                    School of Computing and Data Science [14700]
+                                </li>
+                                <li className="leading-relaxed">
+                                    <b>Discipline:</b>
+                                    <br></br>
+                                    Computing and Data Science [643]
+                                </li>
+                            </ul>
+                            
+                            <ul className="w-fit ml-6 space-y-3 list-outside list-disc border-2 border-o-dark-blue px-10 py-2">
+                                <li className="leading-relaxed">
+                                    <b>Faculty:</b>
+                                    <br></br>
+                                    Interdisciplinary Area [VF01]
+                                </li>
+                                <li className="leading-relaxed">
+                                    <b>Department:</b>
+                                    <br></br>
+                                    Data Science [VD002]
+                                </li>
+                            </ul>
+
+
+
                             <li className="leading-relaxed">
                                 <b>Proposed Supervisor:</b>
                                 <br></br>
