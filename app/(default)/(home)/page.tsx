@@ -30,18 +30,18 @@ export default function Home() {
                             </h1>
 
                             <p>
-                                Assistant Professor, School of Computing and Data Science (CDS) and Institute of Data Science (IDS), The University of Hong Kong (HKU)
+                                Assistant Professor, School of Computing and Data Science (CDS), The University of Hong Kong (HKU)
                             </p>
 
                             <ul className="ml-6 list-outside list-disc space-y-3">
                                 <li className="leading-loose">
-                                    Academic page at <Link href="https://ai.hku.hk/index.php/people/academic-staff/hongyang" target="_blank" className="text-o-blue animated-underline break-words">CDS</Link> and <Link href="https://datascience.hku.hk/people/hongyang-li/" target="_blank" className="text-o-blue animated-underline break-words">IDS</Link>
+                                    Academic page at <Link href="https://ai.hku.hk/index.php/people/academic-staff/hongyang" target="_blank" className="text-o-blue animated-underline break-words">CDS</Link>
                                 </li>
                                 <li className="leading-loose">
                                     Email: <Link href="mailto:hongyang@hku.hk" className="text-o-blue animated-underline">hongyang@hku.hk</Link>
                                 </li>
                                 <li className="leading-loose">
-                                    Office: Room P307B, Graduate House, 3 University Drive, HKU
+                                    Office Rooms: CB 301E, <Link href="https://maps.app.goo.gl/DehmaHDnZ43ouHQx9" target="_blank" className="text-o-blue animated-underline break-words">Chow Yei Ching Building (周亦卿楼)</Link>, HKU / 1315, CDS, 590 Fangchun Road (香港大学张江校区), Shanghai
                                 </li>
                                 <li className="leading-loose">
                                     Lab location: HW 335 and GH P501
