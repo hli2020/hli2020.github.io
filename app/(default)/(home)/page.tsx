@@ -35,7 +35,7 @@ export default function Home() {
 
                             <ul className="ml-6 list-outside list-disc space-y-3">
                                 <li className="leading-loose">
-                                    Academic page at <Link href="https://ai.hku.hk/index.php/people/academic-staff/hongyang" target="_blank" className="text-o-blue animated-underline break-words">CDS</Link>
+                                    Academic Page at <Link href="https://ai.hku.hk/index.php/people/academic-staff/hongyang" target="_blank" className="text-o-blue animated-underline break-words">CDS</Link>
                                 </li>
                                 <li className="leading-loose">
                                     Email: <Link href="mailto:hongyang@hku.hk" className="text-o-blue animated-underline">hongyang@hku.hk</Link>
@@ -44,7 +44,7 @@ export default function Home() {
                                     Office Rooms: CB 301E, <Link href="https://maps.app.goo.gl/DehmaHDnZ43ouHQx9" target="_blank" className="text-o-blue animated-underline break-words">Chow Yei Ching Building (周亦卿楼)</Link>, HKU / 1315, CDS, <Link href="https://surl.amap.com/1EWQWSi1p4XN" target="_blank" className="text-o-blue animated-underline break-words">590 Fangchun Road (香港大学张江校区)</Link>, Shanghai
                                 </li>
                                 <li className="leading-loose">
-                                    Lab location: HW 335 and GH P501
+                                    Lab Location: HW 335 and GH P501
                                 </li>
                             </ul>
 
