@@ -30,7 +30,7 @@ export default function Home() {
                             </h1>
 
                             <p>
-                                Assistant Professor, School of Computing and Data Science (CDS), The University of Hong Kong (HKU)
+                                <b>Assistant Professor</b>, School of Computing and Data Science (CDS), The University of Hong Kong (HKU). <b>Assistant Director</b> (AI Research and Tech Transfer) of CDS, HKU.
                             </p>
 
                             <ul className="ml-6 list-outside list-disc space-y-3">
@@ -41,7 +41,11 @@ export default function Home() {
                                     Email: <Link href="mailto:hongyang@hku.hk" className="text-o-blue animated-underline">hongyang@hku.hk</Link>
                                 </li>
                                 <li className="leading-loose">
-                                    Office Rooms: CB 301E, <Link href="https://maps.app.goo.gl/DehmaHDnZ43ouHQx9" target="_blank" className="text-o-blue animated-underline break-words">Chow Yei Ching Building (周亦卿楼)</Link>, HKU & 1315, CDS, <Link href="https://surl.amap.com/1EWQWSi1p4XN" target="_blank" className="text-o-blue animated-underline break-words">590 Fangchun Road (香港大学张江校区)</Link>, Shanghai
+                                    Office Room:
+                                    <ul className="ml-6 list-outside" style={{listStyleType:"circle"}}>
+                                        <li className="leading-loose">CB 301E, <Link href="https://maps.app.goo.gl/DehmaHDnZ43ouHQx9" target="_blank" className="text-o-blue animated-underline break-words">Chow Yei Ching Building (周亦卿楼)</Link>, HKU</li>
+                                        <li className="leading-loose">1315, CDS, <Link href="https://surl.amap.com/1EWQWSi1p4XN" target="_blank" className="text-o-blue animated-underline break-words">590 Fangchun Road (香港大学张江校区)</Link>, Shanghai</li>
+                                    </ul>
                                 </li>
                                 <li className="leading-loose">
                                     Lab Location: Haking Wong Building 335 & Graduate House P501
@@ -139,14 +143,14 @@ export default function Home() {
             <div className="w-full px-6 flex justify-center mt-6">
                 <div className="w-full max-w-5xl flex flex-col gap-6">
                     <p className="leading-relaxed">
-                        Hongyang Li is an Assistant Professor at The University of Hong Kong and has led OpenDriveLab (<Link href="https://opendrivelab.com/" target="_blank" className="text-o-blue animated-underline">opendrivelab.com</Link>) since 2021. His research focus is on autonomous driving and embodied AI. He led the end-to-end autonomous driving project, UniAD and won the IEEE CVPR 2023 Best Paper Award. UniAD has a tremendous impact both in academia and industry, including the recent rollout to customers by Tesla in FSD V12. He created the first large-scale real robot ecosystem, AgiBot World, that systematically investigated the scaling law principles for robotic manipulation and won IROS 2025 Best Paper Finalist. He proposed the bird's-eye-view perception work, BEVFormer, that won Top 100 AI Papers in 2022. He served as Area Chair for CVPR, NeurIPS (including 2023 Notable AC), ICLR, ICCV, ICML, RSS, referee for Nature, Science Robotics, Guest Editor at Automotive Innovations. He is the Working Group Chair for IEEE Standards P3474 under Vehicular Technology Society. He is the Senior Member of IEEE, CCF and CSIG. He is the recipient of China AI Wu Wen Jun Early Career Award 2024.
+                        Hongyang Li is Assistant Professor at The University of Hong Kong (HKU), Assistant Director (AI Research and Tech Transfer) at the School of Computing and Data Science, HKU. He co-founded OpenDriveLab (<Link href="https://opendrivelab.com/" target="_blank" className="text-o-blue animated-underline">opendrivelab.com</Link>) in 2021. His research focus is on embodied intelligent systems. He led the end-to-end autonomous driving project, UniAD and won the IEEE CVPR 2023 Best Paper Award. UniAD has impact both in academia and industry, including Tesla FSD V13. He created the first large-scale real robot ecosystem, AgiBot World, that systematically investigated the scaling law principles for robotic manipulation and won IROS 2025 Best Paper Finalist. He proposed the bird's-eye-view perception work, BEVFormer, that won Top 100 AI Papers in 2022. He served as Area Chair for CVPR, NeurIPS (including 2023 Notable AC), ICLR, ICCV, ICML, RSS, and Referee for Nature, Nature Communications, Science Robotics. He is the Chair for IEEE Standards P3474 under IEEE Vehicular Technology Society. He is the Senior Member of IEEE. He is the recipient of China AI Wu Wen Jun Early Career Award 2024, BAAI Young Scholar 2025, RSS Early Career Spotlight Award 2026.
                     </p>
                     <details className="group inline-block">
                         <summary className="inline-block text-o-blue animated-underline hover:cursor-pointer select-none group-open:bg-foreground/6">
                             中文简介
                         </summary>
                         <p className="bg-foreground/6 pt-2 pb-2 leading-relaxed">
-                            李弘扬，香港大学助理教授，OpenDriveLab团队（<Link href="https://opendrivelab.com/" target="_blank" className="text-o-blue animated-underline">opendrivelab.com</Link>）联合创始人。研究方向为端到端智能系统在机器人、自动驾驶的应用。他主导的端到端自动驾驶方案UniAD于2022年提出，获IEEE CVPR 2023最佳论文奖。UniAD等系列工作产生了明显的社会经济效益，包括特斯拉于2023年推出的端到端FSD。他构造的超大规模具身智能训练场AgiBot World，是业界首个百万真机、千万仿真数据集，系统研究具身Scaling Law方法论，获IROS 2025最佳论文入围奖。他提出的俯视图感知方法BEVFormer，获2022年百强影响力人工智能论文榜单，成为业界广泛使用的纯视觉检测基准。他多次担任CVPR、NeurIPS、ICLR、ICCV、ICML、RSS等国际会议领域主席（AC），其中获得NeurIPS 2023 Notable AC。他是《自然》、《科学·机器人》的审稿人、期刊《Automotive Innovations》客座编委。IEEE、CCF、CSIG高级会员、IEEE汽车委员会自动驾驶国际标准工作组组长。荣获2024年中国吴文俊人工智能青年科技奖、2023年上海市东方英才计划领军项目。
+                            李弘扬，香港大学计算与数据科学学院助理院长（AI研究与技术转化）、助理教授，港大OpenDriveLab团队（<Link href="https://opendrivelab.com/" target="_blank" className="text-o-blue animated-underline">opendrivelab.com</Link>）负责人。研究方向为端到端智能系统在机器人、自动驾驶的应用。他主导的端到端自动驾驶方案UniAD于2022年提出，获IEEE CVPR 2023最佳论文奖。UniAD等系列工作产生了明显的社会经济效益，包括特斯拉于2023年推出的FSD V13。他构造的超大规模具身智能训练场Agibot World, 是业界首个百万真机、千万仿真数据集，系统研究具身Scaling Law方法论，该系列工作获IROS 2025 Best Paper Finalist、被顶级期刊TRO接受。他提出的俯视图感知方法BEVFormer，获2022年百强影响力人工智能论文榜单，成为业界广泛使用的纯视觉检测基准。他多次担任CVPR、NeurIPS、ICLR、ICCV、ICML、RSS等国际会议领域主席（AC），其中获得NeurIPS 2023 Notable AC。他是《自然》、《自然·通讯》、《科学·机器人》审稿人。IEEE、CCF、CSIG高级会员、IEEE汽车委员会自动驾驶国际标准P3474工作组组长。荣获2024年中国吴文俊人工智能青年科技奖。入选2025年北京智源研究院智源青年学者。荣获2026年国际顶级会议RSS Early Career Spotlight Award。
                         </p>
                     </details>
                 </div>
